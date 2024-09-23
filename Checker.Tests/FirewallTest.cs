@@ -11,7 +11,7 @@ namespace Checker.Tests
     public void CheckIpAndPortTest()
     {
       // Arrange
-      string ip = "0.0.0.0"; // infas.de
+      string ip = "46.30.63.183"; // infas.de
       int port = 80;
 
       // Act
