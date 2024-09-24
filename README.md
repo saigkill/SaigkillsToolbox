@@ -27,10 +27,10 @@ This project replaces and continues the project [SaschasToolbox](https://www.nug
 |What|Status|
 |---|---|
 |Language|C#|
-|Framework|.NET 8|
-|Continuous Integration|![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/saigkill/SaschasToolbox/dotnet.yml)|
+|Framework|.NET 8, netstandard2.0 |
+|Continuous Integration Prod | [![Build status](https://dev.azure.com/saigkill/Saigkill.Toolbox/_apis/build/status/Saigkill.Toolbox-.NET%20Desktop-CI-Prod)](https://dev.azure.com/saigkill/Saigkill.Toolbox/_build/latest?definitionId=65)|
+|Continuous Integration Stage | [![Build status](https://dev.azure.com/saigkill/Saigkill.Toolbox/_apis/build/status/Saigkill.Toolbox-.NET%20Desktop-CI-Stage)](https://dev.azure.com/saigkill/Saigkill.Toolbox/_build/latest?definitionId=66) |
 |Code Coverage|[![Coverage Status](https://coveralls.io/repos/github/saigkill/SaschasToolbox/badge.svg?branch=master)](https://coveralls.io/github/saigkill/SaschasToolbox?branch=master)
-|Latest Release|![GitHub Release](https://img.shields.io/github/v/release/saigkill/SaschasToolbox)|
 
 ## Documentation
 A little documentation is [there](https://dev.azure.com/saigkill/Saigkill.Toolbox/_wiki/wikis/Saigkill.Toolbox.wiki/6/Main-Site).
