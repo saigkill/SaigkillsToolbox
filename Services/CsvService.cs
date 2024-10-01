@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Security;
 using System.Threading.Tasks;
+
 using Ardalis.GuardClauses;
 
 using CsvHelper;
@@ -56,13 +57,17 @@ namespace Services
         Delimiter = delimiter
       };
       using var writer = new StreamWriter(targetName);
+#pragma warning disable MA0004
       await using var csv = new CsvWriter(writer, config);
+#pragma warning restore MA0004
       try
       {
         await csv.WriteRecordsAsync(list).ConfigureAwait(false);
         _logger.LogInformation("CSV successful created.");
       }
+#pragma warning disable S2139
       catch (Exception ex)
+#pragma warning restore S2139
       {
         _logger.LogError(ex, "Error while CSV creation: {ExMessage}", ex.Message);
         throw;
@@ -93,21 +98,21 @@ namespace Services
       {
         Delimiter = delimiter
       };
-      using (var reader = new StreamReader(targetName))
-      using (var csv = new CsvReader(reader, config))
+      using var reader = new StreamReader(targetName);
+      using var csv = new CsvReader(reader, config);
+      try
       {
-        try
-        {
-          csv.Context.RegisterClassMap(map);
-          var records = csv.GetRecords<T>();
-          _logger.LogInformation("CSV reading finished.");
-          return records.ToList();
-        }
-        catch (Exception ex)
-        {
-          _logger.LogError(ex, "Error while producing the list from CSV: {ExMessage}", ex.Message);
-          throw;
-        }
+        csv.Context.RegisterClassMap(map);
+        var records = csv.GetRecords<T>();
+        _logger.LogInformation("CSV reading finished.");
+        return records.ToList();
+      }
+#pragma warning disable S2139
+      catch (Exception ex)
+#pragma warning restore S2139
+      {
+        _logger.LogError(ex, "Error while producing the list from CSV: {ExMessage}", ex.Message);
+        throw;
       }
     }
   }

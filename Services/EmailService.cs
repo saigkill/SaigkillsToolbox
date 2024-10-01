@@ -1,8 +1,12 @@
 ﻿using System;
 using System.Threading.Tasks;
+
 using Ardalis.GuardClauses;
+
 using Checker;
+
 using MailKit.Net.Smtp;
+
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
@@ -63,7 +67,9 @@ namespace Services
           _logger.LogInformation("Firewall blockt die Verbindung.");
         }
       }
+#pragma warning disable S2139
       catch (Exception ex)
+#pragma warning restore S2139
       {
         _logger.LogError(ex, "Error while sending email: {0}", ex);
         throw;
