@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Threading.Tasks;
+
 using Ardalis.GuardClauses;
 
 using Microsoft.Extensions.Configuration;
@@ -80,7 +81,9 @@ namespace Services
 
         return true;
       }
+#pragma warning disable S2139
       catch (Exception ex)
+#pragma warning restore S2139
       {
         _logger.LogError(ex, "Error while downloading: {ExMessage}", ex.Message);
         throw;
@@ -107,7 +110,9 @@ namespace Services
         }
         _logger.LogInformation("File deleted: {RPath}", remoteFilepath);
       }
+#pragma warning disable S2139
       catch (Exception ex)
+#pragma warning restore S2139
       {
         _logger.LogError(ex, "Error while deleting {RemoteFilepath}. Error: {ExMessage}", remoteFilepath, ex.Message);
         throw;
@@ -150,7 +155,9 @@ namespace Services
         _logger.LogInformation("Datei hochgeladen: {RemoteFilepath}", remoteFilepath);
         return true;
       }
+#pragma warning disable S2139
       catch (Exception ex)
+#pragma warning restore S2139
       {
         _logger.LogError(ex, "Fehler beim Hochladen: {ExMessage}", ex.Message);
         throw;

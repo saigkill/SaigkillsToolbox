@@ -5,7 +5,7 @@ namespace Generators
   /// <summary>
   /// A class to create a temporary directory.
   /// </summary>
-  public class TemporaryDirectory
+  public static class TemporaryDirectory
   {
     /// <summary>
     /// Erstellt einen temporären Ordner und gibt den Pfad zurück.
