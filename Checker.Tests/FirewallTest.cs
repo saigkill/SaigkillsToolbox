@@ -2,77 +2,79 @@
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Checker.Tests;
-
-[TestClass]
-[TestSubject(typeof(Firewall))]
-public class FirewallTest
+namespace Checker.Tests
 {
-  [TestMethod]
-  public void CheckIpAndPortTest()
+
+  [TestClass]
+  [TestSubject(typeof(Firewall))]
+  public class FirewallTest
   {
-    // Arrange
-    string ip = "46.30.63.183"; // infas.de
-    int port = 80;
+    [TestMethod]
+    public void CheckIpAndPortTest()
+    {
+      // Arrange
+      string ip = "46.30.63.183"; // infas.de
+      int port = 80;
 
-    // Act
-    bool result = Firewall.CheckIpAndPort(ip, port);
+      // Act
+      bool result = Firewall.CheckIpAndPort(ip, port);
 
-    // Assert
-    Assert.IsTrue(result);
-  }
+      // Assert
+      Assert.IsTrue(result);
+    }
 
-  [TestMethod]
-  public void CheckIpAndPortTest_InvalidIp()
-  {
-    // Arrange
-    string ip = "300.300.300.300";
-    int port = 80;
+    [TestMethod]
+    public void CheckIpAndPortTest_InvalidIp()
+    {
+      // Arrange
+      string ip = "300.300.300.300";
+      int port = 80;
 
-    // Act
-    bool result = Firewall.CheckIpAndPort(ip, port);
+      // Act
+      bool result = Firewall.CheckIpAndPort(ip, port);
 
-    // Assert
-    Assert.IsFalse(result);
-  }
+      // Assert
+      Assert.IsFalse(result);
+    }
 
-  [TestMethod]
-  public void CheckIpAndPortTest_InvalidPort()
-  {
-    // Arrange
-    string ip = "127.0.0.1";
-    int port = -1;
+    [TestMethod]
+    public void CheckIpAndPortTest_InvalidPort()
+    {
+      // Arrange
+      string ip = "127.0.0.1";
+      int port = -1;
 
-    // Act
-    bool result = Firewall.CheckIpAndPort(ip, port);
+      // Act
+      bool result = Firewall.CheckIpAndPort(ip, port);
 
-    // Assert
-    Assert.IsFalse(result);
-  }
+      // Assert
+      Assert.IsFalse(result);
+    }
 
-  [TestMethod]
-  public void PingIpTest()
-  {
-    // Arrange
-    string ip = "127.0.0.1";
+    [TestMethod]
+    public void PingIpTest()
+    {
+      // Arrange
+      string ip = "127.0.0.1";
 
-    // Act
-    bool result = Firewall.PingIp(ip);
+      // Act
+      bool result = Firewall.PingIp(ip);
 
-    // Assert
-    Assert.IsTrue(result);
-  }
+      // Assert
+      Assert.IsTrue(result);
+    }
 
-  [TestMethod]
-  public void PingIpTest_InvalidIp()
-  {
-    // Arrange
-    string ip = "300.300.300.300";
+    [TestMethod]
+    public void PingIpTest_InvalidIp()
+    {
+      // Arrange
+      string ip = "300.300.300.300";
 
-    // Act
-    bool result = Firewall.PingIp(ip);
+      // Act
+      bool result = Firewall.PingIp(ip);
 
-    // Assert
-    Assert.IsFalse(result);
+      // Assert
+      Assert.IsFalse(result);
+    }
   }
 }

@@ -4,36 +4,38 @@ using JetBrains.Annotations;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Extensions.Tests;
-
-[TestClass]
-[TestSubject(typeof(DateTimeExtensions))]
-public class DateTimeExtensionsTest
+namespace Extensions.Tests
 {
 
-  [TestMethod]
-  public void GetDateTimeAsNumber()
+  [TestClass]
+  [TestSubject(typeof(DateTimeExtensions))]
+  public class DateTimeExtensionsTest
   {
-    // Arrange
-    var dt = new DateTime(2024, 5, 22, 0, 0, 0, DateTimeKind.Local);
 
-    // Act
-    var intDt = dt.ConvertDateToNumeric();
+    [TestMethod]
+    public void GetDateTimeAsNumber()
+    {
+      // Arrange
+      var dt = new DateTime(2024, 5, 22, 0, 0, 0, DateTimeKind.Local);
 
-    // Assert
-    Assert.AreEqual(20240522, intDt);
-  }
+      // Act
+      var intDt = dt.ConvertDateToNumeric();
 
-  [TestMethod]
-  public void GetDateTimeAsString()
-  {
-    // Arrange
-    var dt = new DateTime(2024, 5, 22, 0, 0, 0, DateTimeKind.Local);
+      // Assert
+      Assert.AreEqual(20240522, intDt);
+    }
 
-    // Act
-    var intDt = dt.ConvertDateTimeToString();
+    [TestMethod]
+    public void GetDateTimeAsString()
+    {
+      // Arrange
+      var dt = new DateTime(2024, 5, 22, 0, 0, 0, DateTimeKind.Local);
 
-    // Assert
-    Assert.AreEqual("2024-05-22 00:00:00Z", intDt);
+      // Act
+      var intDt = dt.ConvertDateTimeToString();
+
+      // Assert
+      Assert.AreEqual("2024-05-22 00:00:00Z", intDt);
+    }
   }
 }

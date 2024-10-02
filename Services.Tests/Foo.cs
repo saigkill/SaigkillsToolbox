@@ -1,7 +1,8 @@
-﻿namespace Services.Tests;
-
-public class Foo
+﻿namespace Services.Tests
 {
-  public int Id { get; set; }
-  public string Name { get; set; }
+  public class Foo
+  {
+    public int Id { get; set; }
+    public string Name { get; set; } = string.Empty;
+  }
 }

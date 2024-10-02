@@ -1,80 +1,81 @@
-﻿using System.Collections.Generic;
-using System;
-using Generators;
+﻿using System;
+using System.Collections.Generic;
 
 using JetBrains.Annotations;
 
-
 using Microsoft.Extensions.Logging;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 using Moq;
 
-namespace Generators.Tests;
-
-[TestClass]
-[TestSubject(typeof(DataTableGenerator<>))]
-public class DataTableGeneratorTest
+namespace Generators.Tests
 {
-  private Mock<ILogger<DataTableGenerator<TestModel>>> _mockLogger;
 
-  [TestInitialize]
-  public void Initialize()
+  [TestClass]
+  [TestSubject(typeof(DataTableGenerator<>))]
+  public class DataTableGeneratorTest
   {
-    _mockLogger = new Mock<ILogger<DataTableGenerator<TestModel>>>();
-  }
+    private Mock<ILogger<DataTableGenerator<TestModel>>> _mockLogger;
 
-  [TestMethod]
-  public void TestGenerateDataTableFromModelListWithId()
-  {
-    var modelList = new List<TestModel>
+    [TestInitialize]
+    public void Initialize()
     {
-      new TestModel() { Id = 1, Value = "Test 1" },
-      new TestModel() { Id = 2, Value = "Test 2" }
-    };
-
-    var dtGenerator = new DataTableGenerator<TestModel>(_mockLogger.Object);
-    var generatedDataTable = dtGenerator.GenerateDataTableFromModelList(modelList, true);
-
-    foreach (var model in modelList)
-    {
-      Assert.AreEqual(model.Id, generatedDataTable.Rows[model.Id - 1]["Id"]);
-      Assert.AreEqual(model.Value, generatedDataTable.Rows[model.Id - 1]["Value"]);
+      _mockLogger = new Mock<ILogger<DataTableGenerator<TestModel>>>();
     }
-    Assert.AreEqual(2, generatedDataTable.Columns.Count);
-    Assert.AreEqual(2, generatedDataTable.Rows.Count);
-    Assert.AreEqual("Id", generatedDataTable.Columns[0].ColumnName);
-    Assert.AreEqual("Value", generatedDataTable.Columns[1].ColumnName);
-  }
 
-  [TestMethod]
-  public void TestGenerateDataTableFromModelListWithoutId()
-  {
-    var modelList = new List<TestModel>
+    [TestMethod]
+    public void TestGenerateDataTableFromModelListWithId()
+    {
+      var modelList = new List<TestModel>
     {
       new TestModel() { Id = 1, Value = "Test 1" },
       new TestModel() { Id = 2, Value = "Test 2" }
     };
 
-    var dtGenerator = new DataTableGenerator<TestModel>(_mockLogger.Object);
-    var generatedDataTable = dtGenerator.GenerateDataTableFromModelList(modelList, false);
+      var dtGenerator = new DataTableGenerator<TestModel>(_mockLogger.Object);
+      var generatedDataTable = dtGenerator.GenerateDataTableFromModelList(modelList, true);
 
-    Assert.AreEqual(1, generatedDataTable.Columns.Count);
-    Assert.AreEqual(2, generatedDataTable.Rows.Count);
-    Assert.AreEqual("Value", generatedDataTable.Columns[0].ColumnName);
-  }
+      foreach (var model in modelList)
+      {
+        Assert.AreEqual(model.Id, generatedDataTable.Rows[model.Id - 1]["Id"]);
+        Assert.AreEqual(model.Value, generatedDataTable.Rows[model.Id - 1]["Value"]);
+      }
+      Assert.AreEqual(2, generatedDataTable.Columns.Count);
+      Assert.AreEqual(2, generatedDataTable.Rows.Count);
+      Assert.AreEqual("Id", generatedDataTable.Columns[0].ColumnName);
+      Assert.AreEqual("Value", generatedDataTable.Columns[1].ColumnName);
+    }
 
-  [TestMethod]
-  public void TestGenerateDataTableFromNullModelList()
-  {
-    var dtGenerator = new DataTableGenerator<TestModel>(_mockLogger.Object);
-    // ReSharper disable once AssignNullToNotNullAttribute
+    [TestMethod]
+    public void TestGenerateDataTableFromModelListWithoutId()
+    {
+      var modelList = new List<TestModel>
+    {
+      new TestModel() { Id = 1, Value = "Test 1" },
+      new TestModel() { Id = 2, Value = "Test 2" }
+    };
 
-    Assert.ThrowsException<ArgumentNullException>(() => dtGenerator.GenerateDataTableFromModelList(null, false));
-  }
+      var dtGenerator = new DataTableGenerator<TestModel>(_mockLogger.Object);
+      var generatedDataTable = dtGenerator.GenerateDataTableFromModelList(modelList, false);
 
-  public class TestModel
-  {
-    public int Id { get; set; }
-    public string Value { get; set; }
+      Assert.AreEqual(1, generatedDataTable.Columns.Count);
+      Assert.AreEqual(2, generatedDataTable.Rows.Count);
+      Assert.AreEqual("Value", generatedDataTable.Columns[0].ColumnName);
+    }
+
+    [TestMethod]
+    public void TestGenerateDataTableFromNullModelList()
+    {
+      var dtGenerator = new DataTableGenerator<TestModel>(_mockLogger.Object);
+      // ReSharper disable once AssignNullToNotNullAttribute
+
+      Assert.ThrowsException<ArgumentNullException>(() => dtGenerator.GenerateDataTableFromModelList(null, false));
+    }
+
+    public class TestModel
+    {
+      public int Id { get; set; }
+      public string Value { get; set; }
+    }
   }
 }

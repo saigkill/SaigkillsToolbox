@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+
+using Ardalis.GuardClauses;
+
 using Microsoft.Extensions.Logging;
 
 namespace Patterns
@@ -41,6 +44,7 @@ namespace Patterns
     /// <param name="logger">Instance logger</param>
     public Pipeline(string name, ILogger<Pipeline<T>> logger)
     {
+      Guard.Against.NullOrEmpty(name);
       Name = name;
       _logger = logger;
     }
@@ -51,6 +55,7 @@ namespace Patterns
     /// <param name="step">The step.</param>
     public void WithStep(IStep<T> step)
     {
+      Guard.Against.Null(step);
       _steps.Add(step);
     }
 
@@ -61,6 +66,7 @@ namespace Patterns
     /// <returns>A Task&lt;T&gt; representing the asynchronous operation.</returns>
     public async Task<T> StartAsync(T data)
     {
+      Guard.Against.Null(data);
       T result = data;
       foreach (var step in Steps)
       {
