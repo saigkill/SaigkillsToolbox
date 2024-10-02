@@ -1,0 +1,17 @@
+<Solution>
+  <Project Path="Checker.Tests\Checker.Tests.csproj" Type="C#" />
+  <Project Path="Checker\Checker.csproj" Type="C#" />
+  <Project Path="Converter.Tests\Converter.Tests.csproj" Type="C#" />
+  <Project Path="Converter\Converter.csproj" Type="C#" />
+  <Project Path="Extensions.Tests\Extensions.Tests.csproj" Type="C#" />
+  <Project Path="Extensions\Extensions.csproj" Type="C#" />
+  <Project Path="Generators.Tests\Generators.Tests.csproj" Type="C#" />
+  <Project Path="Generators\Generators.csproj" Type="C#" />
+  <Project Path="Patterns.Tests\Patterns.Tests.csproj" Type="C#" />
+  <Project Path="Patterns\Patterns.csproj" Type="C#" />
+  <Project Path="Services.Tests\Services.Tests.csproj" Type="C#" />
+  <Project Path="Services\Services.csproj" Type="C#" />
+  <Properties Name="Visual Studio">
+    <Property Name="OpenWith" Value="Visual Studio Version 17" />
+  </Properties>
+</Solution>
