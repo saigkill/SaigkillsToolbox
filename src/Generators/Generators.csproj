@@ -7,17 +7,17 @@
     <LangVersion>8.0</LangVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <PackageId>Saigkill.Toolbox.Extensions</PackageId>
+    <PackageId>Saigkill.Toolbox.Generators</PackageId>
     <Title>Little collection for standartising my projects. </Title>
     <Authors>Sascha Manns</Authors>
-    <Description>Contains some extension methods.</Description>
+    <Description>Contains some checker methods.</Description>
     <Copyright>(c) 2024 Sascha Manns</Copyright>
     <PackageProjectUrl>https://dev.azure.com/saigkill/Saigkill.Toolbox</PackageProjectUrl>
     <RepositoryUrl>https://dev.azure.com/saigkill/Saigkill.Toolbox/_git/Saigkill.Toolbox</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>icons8-toolbox-60.png</PackageIcon>
-    <PackageTags>extensions</PackageTags>
+    <PackageTags>generators</PackageTags>
     <DebugType>embedded</DebugType>
   </PropertyGroup>
 
@@ -30,11 +30,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\assets\icons8-toolbox-60.png">
+    <None Include="..\..\assets\icons8-toolbox-60.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\README.md">
+    <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
@@ -50,6 +50,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
     <PackageReference Include="Roslynator.Analyzers" Version="4.12.7">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
