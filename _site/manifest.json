@@ -1,0 +1,861 @@
+{
+  "source_base_path": "C:/Users/sasch/source/repos/SaigkillsToolbox",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Checker.Firewall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Checker.Firewall.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Checker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Checker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Converter.DateTimeConverter.DateTimeModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Converter.DateTimeConverter.DateTimeModes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Converter.DateTimeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Converter.DateTimeConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Converter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Converter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Extensions.DateTimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Extensions.DateTimeExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Extensions.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Extensions.EnumerableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Extensions.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Extensions.StringExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Generators.DataTableGenerator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Generators.DataTableGenerator-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Generators.Hash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Generators.Hash.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Generators.TemporaryDirectory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Generators.TemporaryDirectory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Generators.TemporaryFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Generators.TemporaryFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Generators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Generators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Patterns.IPipeline-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Patterns.IPipeline-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Patterns.IStep-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Patterns.IStep-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Patterns.Pipeline-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Patterns.Pipeline-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Patterns.Result-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Patterns.Result-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Patterns.Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Patterns.Result.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Patterns.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Patterns.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Services.CsvService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Services.CsvService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Services.EmailService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Services.EmailService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Services.ICsvService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Services.ICsvService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Services.IEmailService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Services.IEmailService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Services.IWebDavService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Services.IWebDavService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Services.WebDavService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Services.WebDavService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "assets/icons8-toolbox-60.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/icons8-toolbox-60.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/adr/0001-record-architecture-decisions.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/adr/0001-record-architecture-decisions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/adr/0002-handlingofs2139.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/adr/0002-handlingofs2139.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Checker.Firewall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Checker.Firewall.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Checker.Tests.FirewallTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Checker.Tests.FirewallTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Checker.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Checker.Tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Checker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Checker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Converter.DateTimeConverter.DateTimeModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Converter.DateTimeConverter.DateTimeModes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Converter.DateTimeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Converter.DateTimeConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Converter.Tests.DateTimeConverterTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Converter.Tests.DateTimeConverterTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Converter.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Converter.Tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Converter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Converter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Extensions.DateTimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Extensions.DateTimeExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Extensions.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Extensions.EnumerableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Extensions.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Extensions.StringExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Extensions.Tests.DateTimeExtensionsTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Extensions.Tests.DateTimeExtensionsTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Extensions.Tests.EnumerableExtensionsTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Extensions.Tests.EnumerableExtensionsTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Extensions.Tests.StringExtensionsTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Extensions.Tests.StringExtensionsTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Extensions.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Extensions.Tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Generators.DataTableGenerator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Generators.DataTableGenerator-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Generators.Hash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Generators.Hash.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Generators.TemporaryDirectory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Generators.TemporaryDirectory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Generators.TemporaryFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Generators.TemporaryFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Generators.Tests.DataTableGeneratorTest.TestModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Generators.Tests.DataTableGeneratorTest.TestModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Generators.Tests.DataTableGeneratorTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Generators.Tests.DataTableGeneratorTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Generators.Tests.TemporaryDirectoryTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Generators.Tests.TemporaryDirectoryTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Generators.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Generators.Tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Generators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Generators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Patterns.IPipeline-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Patterns.IPipeline-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Patterns.IStep-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Patterns.IStep-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Patterns.Pipeline-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Patterns.Pipeline-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Patterns.Result-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Patterns.Result-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Patterns.Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Patterns.Result.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Patterns.Test.Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Patterns.Test.Result.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Patterns.Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Patterns.Test.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Patterns.Tests.PipelineTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Patterns.Tests.PipelineTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Patterns.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Patterns.Tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Patterns.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Patterns.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Services.CsvService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Services.CsvService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Services.EmailService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Services.EmailService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Services.ICsvService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Services.ICsvService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Services.IEmailService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Services.IEmailService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Services.IWebDavService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Services.IWebDavService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Services.Tests.CsvServiceTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Services.Tests.CsvServiceTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Services.Tests.Foo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Services.Tests.Foo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Services.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Services.Tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Services.WebDavService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Services.WebDavService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/toc.html"
+        },
+        ".json": {
+          "relative_path": "obj/api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Saigkills Toolbox | Saigkill.Toolbox </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Saigkills Toolbox | Saigkill.Toolbox ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://dev.azure.com/saigkill/Saigkill.Toolbox/_git/Saigkill.Toolbox?path=README.md&amp;version=GBdevelop&amp;line=1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="Saigkill.Toolbox">
+            Saigkill.Toolbox
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="saigkills-toolbox">Saigkills Toolbox</h1>
+
+<h2 id="description">Description</h2>
+<p>This is a collection of my personal tools and libraries.</p>
+<ul>
+<li>Firewall checker</li>
+<li>DateOnlyConverter</li>
+<li>DateTimeExtensions</li>
+<li>IEnumerableExtensions</li>
+<li>StringExtensions</li>
+<li>DataTableGenerator</li>
+<li>TemporaryDirectory Generator</li>
+<li>Hash Generator</li>
+<li>TemporaryFile Generator</li>
+<li>Pipeline pattern support</li>
+<li>Retry pattern support</li>
+<li>CSV Service</li>
+<li>Email Service</li>
+<li>WebDav Service</li>
+</ul>
+<p>The project is splitted into several subprojects. Each subproject is a single NuGet package.</p>
+<p>This project replaces and continues the project <a href="https://www.nuget.org/packages/SaschaManns.SaschasToolbox/">SaschasToolbox</a>. The old project is deprecated and will not be maintained anymore.</p>
+<h2 id="badges">Badges</h2>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Language</td>
+<td>C#</td>
+</tr>
+<tr>
+<td>Framework</td>
+<td>.NET 8, netstandard2.0</td>
+</tr>
+<tr>
+<td>Continuous Integration Prod</td>
+<td><a href="https://dev.azure.com/saigkill/Saigkill.Toolbox/_build/latest?definitionId=65"><img src="https://dev.azure.com/saigkill/Saigkill.Toolbox/_apis/build/status/Saigkill.Toolbox-.NET%20Desktop-CI-Prod" alt="Build status"></a></td>
+</tr>
+<tr>
+<td>Continuous Integration Stage</td>
+<td><a href="https://dev.azure.com/saigkill/Saigkill.Toolbox/_build/latest?definitionId=66"><img src="https://dev.azure.com/saigkill/Saigkill.Toolbox/_apis/build/status/Saigkill.Toolbox-.NET%20Desktop-CI-Stage" alt="Build status"></a></td>
+</tr>
+<tr>
+<td>Deployment Prod</td>
+<td><a href="https://dev.azure.com/saigkill/Saigkill.Toolbox/_release?_a=releases&amp;view=mine&amp;definitionId=1"><img src="https://vsrm.dev.azure.com/saigkill/_apis/public/Release/badge/820066de-bb64-4006-87d1-70ca26310c2f/1/1" alt="Deployment status"></a></td>
+</tr>
+<tr>
+<td>Deployment Stage</td>
+<td><a href="https://dev.azure.com/saigkill/Saigkill.Toolbox/_release?_a=releases&amp;view=mine&amp;definitionId=2"><img src="https://vsrm.dev.azure.com/saigkill/_apis/public/Release/badge/820066de-bb64-4006-87d1-70ca26310c2f/2/2" alt="Deployment status"></a></td>
+</tr>
+<tr>
+<td>Code Coverage</td>
+<td><img src="https://img.shields.io/azure-devops/coverage/saigkill/Saigkill.Toolbox/66" alt="Azure DevOps coverage"></td>
+</tr>
+<tr>
+<td>Bugreports</td>
+<td><a href="https://github.com/saigkill/SaigkillsToolbox/issues"><img src="https://img.shields.io/github/issues/saigkill/SaschasToolbox" alt="GitHub issues"></a></td>
+</tr>
+<tr>
+<td>Bugreports</td>
+<td><a href="https://dev.azure.com/saigkill/820066de-bb64-4006-87d1-70ca26310c2f/_boards/board/t/2988b49e-078f-47a8-810c-f179fa8efa81/Stories/"><img src="https://dev.azure.com/saigkill/820066de-bb64-4006-87d1-70ca26310c2f/2988b49e-078f-47a8-810c-f179fa8efa81/_apis/work/boardbadge/745fc052-256a-4941-9d95-ee0e344b0563" alt="Board Status"></a></td>
+</tr>
+<tr>
+<td>Blog</td>
+<td><a href="https://saschamanns.de"><img src="https://img.shields.io/badge/Blog-Saigkill-blue" alt="Blog"></a></td>
+</tr>
+</tbody>
+</table>
+<p>File a bug report <a href="https://github.com/saigkill/SaigkillsToolbox/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen">on Github</a>.</p>
+<p>File a bug report <a href="https://dev.azure.com/saigkill/Saigkill.Toolbox/_workitems/recentlyupdated/">on Azure DevOps</a>.</p>
+<h2 id="documentation">Documentation</h2>
+<p>A little documentation is <a href="https://dev.azure.com/saigkill/Saigkill.Toolbox/_wiki/wikis/Saigkill.Toolbox.wiki/6/Main-Site">there</a>.</p>
+<h2 id="deployment">Deployment</h2>
+<p>The deployment is done by Azure DevOps.
+The development branch is deployed to <a href="https://pkgs.dev.azure.com/saigkill/Saigkill.Toolbox/_packaging/SaigkillsToolbox-Stage/nuget/v3/index.json">Azure Artifacts Nuget feed</a>.
+The master branch is deployed to <a href="https://www.nuget.org/packages?q=saigkill.toolbox">NuGet.org</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Status</th>
+<th>Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Saigkill.Toolbox.Checker</td>
+<td><img src="https://img.shields.io/nuget/dt/Saigkill.Toolbox.Checker" alt="NuGet Downloads"></td>
+<td><img src="https://img.shields.io/nuget/v/Saigkill.Toolbox.Checker" alt="NuGet Version"></td>
+</tr>
+<tr>
+<td>Saigkill.Toolbox.Converter</td>
+<td><img src="https://img.shields.io/nuget/dt/Saigkill.Toolbox.Converter" alt="NuGet Downloads"></td>
+<td><img src="https://img.shields.io/nuget/v/Saigkill.Toolbox.Converter" alt="NuGet Version"></td>
+</tr>
+<tr>
+<td>Saigkill.Toolbox.Extensions</td>
+<td><img src="https://img.shields.io/nuget/dt/Saigkill.Toolbox.Extensions" alt="NuGet Downloads"></td>
+<td><img src="https://img.shields.io/nuget/v/Saigkill.Toolbox.Extensions" alt="NuGet Version"></td>
+</tr>
+<tr>
+<td>Saigkill.Toolbox.Generators</td>
+<td><img src="https://img.shields.io/nuget/dt/Saigkill.Toolbox.Generators" alt="NuGet Downloads"></td>
+<td><img src="https://img.shields.io/nuget/v/Saigkill.Toolbox.Generators" alt="NuGet Version"></td>
+</tr>
+<tr>
+<td>Saigkill.Toolbox.Patterns</td>
+<td><img src="https://img.shields.io/nuget/dt/Saigkill.Toolbox.Patterns" alt="NuGet Downloads"></td>
+<td><img src="https://img.shields.io/nuget/v/Saigkill.Toolbox.Patterns" alt="NuGet Version"></td>
+</tr>
+<tr>
+<td>Saigkill.Toolbox.Services</td>
+<td><img src="https://img.shields.io/nuget/dt/Saigkill.Toolbox.Services" alt="NuGet Downloads"></td>
+<td><img src="https://img.shields.io/nuget/v/Saigkill.Toolbox.Services" alt="NuGet Version"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="installation">Installation</h2>
+<p>Just install the needed package to your project.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://dev.azure.com/saigkill/Saigkill.Toolbox/_git/Saigkill.Toolbox?path=README.md&amp;version=GBdevelop&amp;line=1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

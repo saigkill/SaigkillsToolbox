@@ -1,0 +1,1680 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Checker
+  name: Checker
+  href: api/Checker.html
+  commentId: N:Checker
+  fullName: Checker
+  nameWithType: Checker
+- uid: Checker.Firewall
+  name: Firewall
+  href: api/Checker.Firewall.html
+  commentId: T:Checker.Firewall
+  fullName: Checker.Firewall
+  nameWithType: Firewall
+- uid: Checker.Firewall.CheckIpAndPort(System.String,System.Int32)
+  name: CheckIpAndPort(string, int)
+  href: api/Checker.Firewall.html#Checker_Firewall_CheckIpAndPort_System_String_System_Int32_
+  commentId: M:Checker.Firewall.CheckIpAndPort(System.String,System.Int32)
+  name.vb: CheckIpAndPort(String, Integer)
+  fullName: Checker.Firewall.CheckIpAndPort(string, int)
+  fullName.vb: Checker.Firewall.CheckIpAndPort(String, Integer)
+  nameWithType: Firewall.CheckIpAndPort(string, int)
+  nameWithType.vb: Firewall.CheckIpAndPort(String, Integer)
+- uid: Checker.Firewall.CheckIpAndPort*
+  name: CheckIpAndPort
+  href: api/Checker.Firewall.html#Checker_Firewall_CheckIpAndPort_
+  commentId: Overload:Checker.Firewall.CheckIpAndPort
+  isSpec: "True"
+  fullName: Checker.Firewall.CheckIpAndPort
+  nameWithType: Firewall.CheckIpAndPort
+- uid: Checker.Firewall.PingIp(System.String)
+  name: PingIp(string)
+  href: api/Checker.Firewall.html#Checker_Firewall_PingIp_System_String_
+  commentId: M:Checker.Firewall.PingIp(System.String)
+  name.vb: PingIp(String)
+  fullName: Checker.Firewall.PingIp(string)
+  fullName.vb: Checker.Firewall.PingIp(String)
+  nameWithType: Firewall.PingIp(string)
+  nameWithType.vb: Firewall.PingIp(String)
+- uid: Checker.Firewall.PingIp*
+  name: PingIp
+  href: api/Checker.Firewall.html#Checker_Firewall_PingIp_
+  commentId: Overload:Checker.Firewall.PingIp
+  isSpec: "True"
+  fullName: Checker.Firewall.PingIp
+  nameWithType: Firewall.PingIp
+- uid: Checker.Tests
+  name: Checker.Tests
+  href: obj/api/Checker.Tests.html
+  commentId: N:Checker.Tests
+  fullName: Checker.Tests
+  nameWithType: Checker.Tests
+- uid: Checker.Tests.FirewallTest
+  name: FirewallTest
+  href: obj/api/Checker.Tests.FirewallTest.html
+  commentId: T:Checker.Tests.FirewallTest
+  fullName: Checker.Tests.FirewallTest
+  nameWithType: FirewallTest
+- uid: Checker.Tests.FirewallTest.CheckIpAndPortTest
+  name: CheckIpAndPortTest()
+  href: obj/api/Checker.Tests.FirewallTest.html#Checker_Tests_FirewallTest_CheckIpAndPortTest
+  commentId: M:Checker.Tests.FirewallTest.CheckIpAndPortTest
+  fullName: Checker.Tests.FirewallTest.CheckIpAndPortTest()
+  nameWithType: FirewallTest.CheckIpAndPortTest()
+- uid: Checker.Tests.FirewallTest.CheckIpAndPortTest*
+  name: CheckIpAndPortTest
+  href: obj/api/Checker.Tests.FirewallTest.html#Checker_Tests_FirewallTest_CheckIpAndPortTest_
+  commentId: Overload:Checker.Tests.FirewallTest.CheckIpAndPortTest
+  isSpec: "True"
+  fullName: Checker.Tests.FirewallTest.CheckIpAndPortTest
+  nameWithType: FirewallTest.CheckIpAndPortTest
+- uid: Checker.Tests.FirewallTest.CheckIpAndPortTest_InvalidIp
+  name: CheckIpAndPortTest_InvalidIp()
+  href: obj/api/Checker.Tests.FirewallTest.html#Checker_Tests_FirewallTest_CheckIpAndPortTest_InvalidIp
+  commentId: M:Checker.Tests.FirewallTest.CheckIpAndPortTest_InvalidIp
+  fullName: Checker.Tests.FirewallTest.CheckIpAndPortTest_InvalidIp()
+  nameWithType: FirewallTest.CheckIpAndPortTest_InvalidIp()
+- uid: Checker.Tests.FirewallTest.CheckIpAndPortTest_InvalidIp*
+  name: CheckIpAndPortTest_InvalidIp
+  href: obj/api/Checker.Tests.FirewallTest.html#Checker_Tests_FirewallTest_CheckIpAndPortTest_InvalidIp_
+  commentId: Overload:Checker.Tests.FirewallTest.CheckIpAndPortTest_InvalidIp
+  isSpec: "True"
+  fullName: Checker.Tests.FirewallTest.CheckIpAndPortTest_InvalidIp
+  nameWithType: FirewallTest.CheckIpAndPortTest_InvalidIp
+- uid: Checker.Tests.FirewallTest.CheckIpAndPortTest_InvalidPort
+  name: CheckIpAndPortTest_InvalidPort()
+  href: obj/api/Checker.Tests.FirewallTest.html#Checker_Tests_FirewallTest_CheckIpAndPortTest_InvalidPort
+  commentId: M:Checker.Tests.FirewallTest.CheckIpAndPortTest_InvalidPort
+  fullName: Checker.Tests.FirewallTest.CheckIpAndPortTest_InvalidPort()
+  nameWithType: FirewallTest.CheckIpAndPortTest_InvalidPort()
+- uid: Checker.Tests.FirewallTest.CheckIpAndPortTest_InvalidPort*
+  name: CheckIpAndPortTest_InvalidPort
+  href: obj/api/Checker.Tests.FirewallTest.html#Checker_Tests_FirewallTest_CheckIpAndPortTest_InvalidPort_
+  commentId: Overload:Checker.Tests.FirewallTest.CheckIpAndPortTest_InvalidPort
+  isSpec: "True"
+  fullName: Checker.Tests.FirewallTest.CheckIpAndPortTest_InvalidPort
+  nameWithType: FirewallTest.CheckIpAndPortTest_InvalidPort
+- uid: Checker.Tests.FirewallTest.PingIpTest
+  name: PingIpTest()
+  href: obj/api/Checker.Tests.FirewallTest.html#Checker_Tests_FirewallTest_PingIpTest
+  commentId: M:Checker.Tests.FirewallTest.PingIpTest
+  fullName: Checker.Tests.FirewallTest.PingIpTest()
+  nameWithType: FirewallTest.PingIpTest()
+- uid: Checker.Tests.FirewallTest.PingIpTest*
+  name: PingIpTest
+  href: obj/api/Checker.Tests.FirewallTest.html#Checker_Tests_FirewallTest_PingIpTest_
+  commentId: Overload:Checker.Tests.FirewallTest.PingIpTest
+  isSpec: "True"
+  fullName: Checker.Tests.FirewallTest.PingIpTest
+  nameWithType: FirewallTest.PingIpTest
+- uid: Checker.Tests.FirewallTest.PingIpTest_InvalidIp
+  name: PingIpTest_InvalidIp()
+  href: obj/api/Checker.Tests.FirewallTest.html#Checker_Tests_FirewallTest_PingIpTest_InvalidIp
+  commentId: M:Checker.Tests.FirewallTest.PingIpTest_InvalidIp
+  fullName: Checker.Tests.FirewallTest.PingIpTest_InvalidIp()
+  nameWithType: FirewallTest.PingIpTest_InvalidIp()
+- uid: Checker.Tests.FirewallTest.PingIpTest_InvalidIp*
+  name: PingIpTest_InvalidIp
+  href: obj/api/Checker.Tests.FirewallTest.html#Checker_Tests_FirewallTest_PingIpTest_InvalidIp_
+  commentId: Overload:Checker.Tests.FirewallTest.PingIpTest_InvalidIp
+  isSpec: "True"
+  fullName: Checker.Tests.FirewallTest.PingIpTest_InvalidIp
+  nameWithType: FirewallTest.PingIpTest_InvalidIp
+- uid: Converter
+  name: Converter
+  href: api/Converter.html
+  commentId: N:Converter
+  fullName: Converter
+  nameWithType: Converter
+- uid: Converter.DateTimeConverter
+  name: DateTimeConverter
+  href: api/Converter.DateTimeConverter.html
+  commentId: T:Converter.DateTimeConverter
+  fullName: Converter.DateTimeConverter
+  nameWithType: DateTimeConverter
+- uid: Converter.DateTimeConverter.DateTimeModes
+  name: DateTimeConverter.DateTimeModes
+  href: api/Converter.DateTimeConverter.DateTimeModes.html
+  commentId: T:Converter.DateTimeConverter.DateTimeModes
+  fullName: Converter.DateTimeConverter.DateTimeModes
+  nameWithType: DateTimeConverter.DateTimeModes
+- uid: Converter.DateTimeConverter.DateTimeModes.Day
+  name: Day
+  href: api/Converter.DateTimeConverter.DateTimeModes.html#Converter_DateTimeConverter_DateTimeModes_Day
+  commentId: F:Converter.DateTimeConverter.DateTimeModes.Day
+  fullName: Converter.DateTimeConverter.DateTimeModes.Day
+  nameWithType: DateTimeConverter.DateTimeModes.Day
+- uid: Converter.DateTimeConverter.DateTimeModes.Month
+  name: Month
+  href: api/Converter.DateTimeConverter.DateTimeModes.html#Converter_DateTimeConverter_DateTimeModes_Month
+  commentId: F:Converter.DateTimeConverter.DateTimeModes.Month
+  fullName: Converter.DateTimeConverter.DateTimeModes.Month
+  nameWithType: DateTimeConverter.DateTimeModes.Month
+- uid: Converter.DateTimeConverter.DateTimeModes.Year
+  name: Year
+  href: api/Converter.DateTimeConverter.DateTimeModes.html#Converter_DateTimeConverter_DateTimeModes_Year
+  commentId: F:Converter.DateTimeConverter.DateTimeModes.Year
+  fullName: Converter.DateTimeConverter.DateTimeModes.Year
+  nameWithType: DateTimeConverter.DateTimeModes.Year
+- uid: Converter.DateTimeConverter.SplitDateByMode(System.DateTime,Converter.DateTimeConverter.DateTimeModes)
+  name: SplitDateByMode(DateTime, DateTimeModes)
+  href: api/Converter.DateTimeConverter.html#Converter_DateTimeConverter_SplitDateByMode_System_DateTime_Converter_DateTimeConverter_DateTimeModes_
+  commentId: M:Converter.DateTimeConverter.SplitDateByMode(System.DateTime,Converter.DateTimeConverter.DateTimeModes)
+  name.vb: SplitDateByMode(Date, DateTimeModes)
+  fullName: Converter.DateTimeConverter.SplitDateByMode(System.DateTime, Converter.DateTimeConverter.DateTimeModes)
+  fullName.vb: Converter.DateTimeConverter.SplitDateByMode(Date, Converter.DateTimeConverter.DateTimeModes)
+  nameWithType: DateTimeConverter.SplitDateByMode(DateTime, DateTimeConverter.DateTimeModes)
+  nameWithType.vb: DateTimeConverter.SplitDateByMode(Date, DateTimeConverter.DateTimeModes)
+- uid: Converter.DateTimeConverter.SplitDateByMode*
+  name: SplitDateByMode
+  href: api/Converter.DateTimeConverter.html#Converter_DateTimeConverter_SplitDateByMode_
+  commentId: Overload:Converter.DateTimeConverter.SplitDateByMode
+  isSpec: "True"
+  fullName: Converter.DateTimeConverter.SplitDateByMode
+  nameWithType: DateTimeConverter.SplitDateByMode
+- uid: Converter.Tests
+  name: Converter.Tests
+  href: obj/api/Converter.Tests.html
+  commentId: N:Converter.Tests
+  fullName: Converter.Tests
+  nameWithType: Converter.Tests
+- uid: Converter.Tests.DateTimeConverterTest
+  name: DateTimeConverterTest
+  href: obj/api/Converter.Tests.DateTimeConverterTest.html
+  commentId: T:Converter.Tests.DateTimeConverterTest
+  fullName: Converter.Tests.DateTimeConverterTest
+  nameWithType: DateTimeConverterTest
+- uid: Converter.Tests.DateTimeConverterTest.SplitDateByMode_ValidInputs_ReturnsExpectedResult(System.String,Converter.DateTimeConverter.DateTimeModes,System.Int32)
+  name: SplitDateByMode_ValidInputs_ReturnsExpectedResult(string, DateTimeModes, int)
+  href: obj/api/Converter.Tests.DateTimeConverterTest.html#Converter_Tests_DateTimeConverterTest_SplitDateByMode_ValidInputs_ReturnsExpectedResult_System_String_Converter_DateTimeConverter_DateTimeModes_System_Int32_
+  commentId: M:Converter.Tests.DateTimeConverterTest.SplitDateByMode_ValidInputs_ReturnsExpectedResult(System.String,Converter.DateTimeConverter.DateTimeModes,System.Int32)
+  name.vb: SplitDateByMode_ValidInputs_ReturnsExpectedResult(String, DateTimeModes, Integer)
+  fullName: Converter.Tests.DateTimeConverterTest.SplitDateByMode_ValidInputs_ReturnsExpectedResult(string, Converter.DateTimeConverter.DateTimeModes, int)
+  fullName.vb: Converter.Tests.DateTimeConverterTest.SplitDateByMode_ValidInputs_ReturnsExpectedResult(String, Converter.DateTimeConverter.DateTimeModes, Integer)
+  nameWithType: DateTimeConverterTest.SplitDateByMode_ValidInputs_ReturnsExpectedResult(string, DateTimeConverter.DateTimeModes, int)
+  nameWithType.vb: DateTimeConverterTest.SplitDateByMode_ValidInputs_ReturnsExpectedResult(String, DateTimeConverter.DateTimeModes, Integer)
+- uid: Converter.Tests.DateTimeConverterTest.SplitDateByMode_ValidInputs_ReturnsExpectedResult*
+  name: SplitDateByMode_ValidInputs_ReturnsExpectedResult
+  href: obj/api/Converter.Tests.DateTimeConverterTest.html#Converter_Tests_DateTimeConverterTest_SplitDateByMode_ValidInputs_ReturnsExpectedResult_
+  commentId: Overload:Converter.Tests.DateTimeConverterTest.SplitDateByMode_ValidInputs_ReturnsExpectedResult
+  isSpec: "True"
+  fullName: Converter.Tests.DateTimeConverterTest.SplitDateByMode_ValidInputs_ReturnsExpectedResult
+  nameWithType: DateTimeConverterTest.SplitDateByMode_ValidInputs_ReturnsExpectedResult
+- uid: Extensions
+  name: Extensions
+  href: api/Extensions.html
+  commentId: N:Extensions
+  fullName: Extensions
+  nameWithType: Extensions
+- uid: Extensions.DateTimeExtensions
+  name: DateTimeExtensions
+  href: api/Extensions.DateTimeExtensions.html
+  commentId: T:Extensions.DateTimeExtensions
+  fullName: Extensions.DateTimeExtensions
+  nameWithType: DateTimeExtensions
+- uid: Extensions.DateTimeExtensions.ConvertDateTimeToString(System.DateTime)
+  name: ConvertDateTimeToString(DateTime)
+  href: api/Extensions.DateTimeExtensions.html#Extensions_DateTimeExtensions_ConvertDateTimeToString_System_DateTime_
+  commentId: M:Extensions.DateTimeExtensions.ConvertDateTimeToString(System.DateTime)
+  name.vb: ConvertDateTimeToString(Date)
+  fullName: Extensions.DateTimeExtensions.ConvertDateTimeToString(System.DateTime)
+  fullName.vb: Extensions.DateTimeExtensions.ConvertDateTimeToString(Date)
+  nameWithType: DateTimeExtensions.ConvertDateTimeToString(DateTime)
+  nameWithType.vb: DateTimeExtensions.ConvertDateTimeToString(Date)
+- uid: Extensions.DateTimeExtensions.ConvertDateTimeToString*
+  name: ConvertDateTimeToString
+  href: api/Extensions.DateTimeExtensions.html#Extensions_DateTimeExtensions_ConvertDateTimeToString_
+  commentId: Overload:Extensions.DateTimeExtensions.ConvertDateTimeToString
+  isSpec: "True"
+  fullName: Extensions.DateTimeExtensions.ConvertDateTimeToString
+  nameWithType: DateTimeExtensions.ConvertDateTimeToString
+- uid: Extensions.DateTimeExtensions.ConvertDateToNumeric(System.DateTime)
+  name: ConvertDateToNumeric(DateTime)
+  href: api/Extensions.DateTimeExtensions.html#Extensions_DateTimeExtensions_ConvertDateToNumeric_System_DateTime_
+  commentId: M:Extensions.DateTimeExtensions.ConvertDateToNumeric(System.DateTime)
+  name.vb: ConvertDateToNumeric(Date)
+  fullName: Extensions.DateTimeExtensions.ConvertDateToNumeric(System.DateTime)
+  fullName.vb: Extensions.DateTimeExtensions.ConvertDateToNumeric(Date)
+  nameWithType: DateTimeExtensions.ConvertDateToNumeric(DateTime)
+  nameWithType.vb: DateTimeExtensions.ConvertDateToNumeric(Date)
+- uid: Extensions.DateTimeExtensions.ConvertDateToNumeric*
+  name: ConvertDateToNumeric
+  href: api/Extensions.DateTimeExtensions.html#Extensions_DateTimeExtensions_ConvertDateToNumeric_
+  commentId: Overload:Extensions.DateTimeExtensions.ConvertDateToNumeric
+  isSpec: "True"
+  fullName: Extensions.DateTimeExtensions.ConvertDateToNumeric
+  nameWithType: DateTimeExtensions.ConvertDateToNumeric
+- uid: Extensions.EnumerableExtensions
+  name: EnumerableExtensions
+  href: api/Extensions.EnumerableExtensions.html
+  commentId: T:Extensions.EnumerableExtensions
+  fullName: Extensions.EnumerableExtensions
+  nameWithType: EnumerableExtensions
+- uid: Extensions.EnumerableExtensions.IsEmpty*
+  name: IsEmpty
+  href: api/Extensions.EnumerableExtensions.html#Extensions_EnumerableExtensions_IsEmpty_
+  commentId: Overload:Extensions.EnumerableExtensions.IsEmpty
+  isSpec: "True"
+  fullName: Extensions.EnumerableExtensions.IsEmpty
+  nameWithType: EnumerableExtensions.IsEmpty
+- uid: Extensions.EnumerableExtensions.IsEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  name: IsEmpty<T>(IEnumerable<T>?)
+  href: api/Extensions.EnumerableExtensions.html#Extensions_EnumerableExtensions_IsEmpty__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Extensions.EnumerableExtensions.IsEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: IsEmpty(Of T)(IEnumerable(Of T))
+  fullName: Extensions.EnumerableExtensions.IsEmpty<T>(System.Collections.Generic.IEnumerable<T>?)
+  fullName.vb: Extensions.EnumerableExtensions.IsEmpty(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: EnumerableExtensions.IsEmpty<T>(IEnumerable<T>?)
+  nameWithType.vb: EnumerableExtensions.IsEmpty(Of T)(IEnumerable(Of T))
+- uid: Extensions.EnumerableExtensions.IsNotEmpty*
+  name: IsNotEmpty
+  href: api/Extensions.EnumerableExtensions.html#Extensions_EnumerableExtensions_IsNotEmpty_
+  commentId: Overload:Extensions.EnumerableExtensions.IsNotEmpty
+  isSpec: "True"
+  fullName: Extensions.EnumerableExtensions.IsNotEmpty
+  nameWithType: EnumerableExtensions.IsNotEmpty
+- uid: Extensions.EnumerableExtensions.IsNotEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  name: IsNotEmpty<T>(IEnumerable<T>?)
+  href: api/Extensions.EnumerableExtensions.html#Extensions_EnumerableExtensions_IsNotEmpty__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Extensions.EnumerableExtensions.IsNotEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: IsNotEmpty(Of T)(IEnumerable(Of T))
+  fullName: Extensions.EnumerableExtensions.IsNotEmpty<T>(System.Collections.Generic.IEnumerable<T>?)
+  fullName.vb: Extensions.EnumerableExtensions.IsNotEmpty(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: EnumerableExtensions.IsNotEmpty<T>(IEnumerable<T>?)
+  nameWithType.vb: EnumerableExtensions.IsNotEmpty(Of T)(IEnumerable(Of T))
+- uid: Extensions.StringExtensions
+  name: StringExtensions
+  href: api/Extensions.StringExtensions.html
+  commentId: T:Extensions.StringExtensions
+  fullName: Extensions.StringExtensions
+  nameWithType: StringExtensions
+- uid: Extensions.StringExtensions.GetSalutationText(System.String)
+  name: GetSalutationText(string)
+  href: api/Extensions.StringExtensions.html#Extensions_StringExtensions_GetSalutationText_System_String_
+  commentId: M:Extensions.StringExtensions.GetSalutationText(System.String)
+  name.vb: GetSalutationText(String)
+  fullName: Extensions.StringExtensions.GetSalutationText(string)
+  fullName.vb: Extensions.StringExtensions.GetSalutationText(String)
+  nameWithType: StringExtensions.GetSalutationText(string)
+  nameWithType.vb: StringExtensions.GetSalutationText(String)
+- uid: Extensions.StringExtensions.GetSalutationText*
+  name: GetSalutationText
+  href: api/Extensions.StringExtensions.html#Extensions_StringExtensions_GetSalutationText_
+  commentId: Overload:Extensions.StringExtensions.GetSalutationText
+  isSpec: "True"
+  fullName: Extensions.StringExtensions.GetSalutationText
+  nameWithType: StringExtensions.GetSalutationText
+- uid: Extensions.StringExtensions.ReturnGenderId(System.String)
+  name: ReturnGenderId(string)
+  href: api/Extensions.StringExtensions.html#Extensions_StringExtensions_ReturnGenderId_System_String_
+  commentId: M:Extensions.StringExtensions.ReturnGenderId(System.String)
+  name.vb: ReturnGenderId(String)
+  fullName: Extensions.StringExtensions.ReturnGenderId(string)
+  fullName.vb: Extensions.StringExtensions.ReturnGenderId(String)
+  nameWithType: StringExtensions.ReturnGenderId(string)
+  nameWithType.vb: StringExtensions.ReturnGenderId(String)
+- uid: Extensions.StringExtensions.ReturnGenderId*
+  name: ReturnGenderId
+  href: api/Extensions.StringExtensions.html#Extensions_StringExtensions_ReturnGenderId_
+  commentId: Overload:Extensions.StringExtensions.ReturnGenderId
+  isSpec: "True"
+  fullName: Extensions.StringExtensions.ReturnGenderId
+  nameWithType: StringExtensions.ReturnGenderId
+- uid: Extensions.Tests
+  name: Extensions.Tests
+  href: obj/api/Extensions.Tests.html
+  commentId: N:Extensions.Tests
+  fullName: Extensions.Tests
+  nameWithType: Extensions.Tests
+- uid: Extensions.Tests.DateTimeExtensionsTest
+  name: DateTimeExtensionsTest
+  href: obj/api/Extensions.Tests.DateTimeExtensionsTest.html
+  commentId: T:Extensions.Tests.DateTimeExtensionsTest
+  fullName: Extensions.Tests.DateTimeExtensionsTest
+  nameWithType: DateTimeExtensionsTest
+- uid: Extensions.Tests.DateTimeExtensionsTest.GetDateTimeAsNumber
+  name: GetDateTimeAsNumber()
+  href: obj/api/Extensions.Tests.DateTimeExtensionsTest.html#Extensions_Tests_DateTimeExtensionsTest_GetDateTimeAsNumber
+  commentId: M:Extensions.Tests.DateTimeExtensionsTest.GetDateTimeAsNumber
+  fullName: Extensions.Tests.DateTimeExtensionsTest.GetDateTimeAsNumber()
+  nameWithType: DateTimeExtensionsTest.GetDateTimeAsNumber()
+- uid: Extensions.Tests.DateTimeExtensionsTest.GetDateTimeAsNumber*
+  name: GetDateTimeAsNumber
+  href: obj/api/Extensions.Tests.DateTimeExtensionsTest.html#Extensions_Tests_DateTimeExtensionsTest_GetDateTimeAsNumber_
+  commentId: Overload:Extensions.Tests.DateTimeExtensionsTest.GetDateTimeAsNumber
+  isSpec: "True"
+  fullName: Extensions.Tests.DateTimeExtensionsTest.GetDateTimeAsNumber
+  nameWithType: DateTimeExtensionsTest.GetDateTimeAsNumber
+- uid: Extensions.Tests.DateTimeExtensionsTest.GetDateTimeAsString
+  name: GetDateTimeAsString()
+  href: obj/api/Extensions.Tests.DateTimeExtensionsTest.html#Extensions_Tests_DateTimeExtensionsTest_GetDateTimeAsString
+  commentId: M:Extensions.Tests.DateTimeExtensionsTest.GetDateTimeAsString
+  fullName: Extensions.Tests.DateTimeExtensionsTest.GetDateTimeAsString()
+  nameWithType: DateTimeExtensionsTest.GetDateTimeAsString()
+- uid: Extensions.Tests.DateTimeExtensionsTest.GetDateTimeAsString*
+  name: GetDateTimeAsString
+  href: obj/api/Extensions.Tests.DateTimeExtensionsTest.html#Extensions_Tests_DateTimeExtensionsTest_GetDateTimeAsString_
+  commentId: Overload:Extensions.Tests.DateTimeExtensionsTest.GetDateTimeAsString
+  isSpec: "True"
+  fullName: Extensions.Tests.DateTimeExtensionsTest.GetDateTimeAsString
+  nameWithType: DateTimeExtensionsTest.GetDateTimeAsString
+- uid: Extensions.Tests.EnumerableExtensionsTest
+  name: EnumerableExtensionsTest
+  href: obj/api/Extensions.Tests.EnumerableExtensionsTest.html
+  commentId: T:Extensions.Tests.EnumerableExtensionsTest
+  fullName: Extensions.Tests.EnumerableExtensionsTest
+  nameWithType: EnumerableExtensionsTest
+- uid: Extensions.Tests.EnumerableExtensionsTest.IsEmptyTest(System.Collections.Generic.IEnumerable{System.Object},System.Boolean)
+  name: IsEmptyTest(IEnumerable<object>?, bool)
+  href: obj/api/Extensions.Tests.EnumerableExtensionsTest.html#Extensions_Tests_EnumerableExtensionsTest_IsEmptyTest_System_Collections_Generic_IEnumerable_System_Object__System_Boolean_
+  commentId: M:Extensions.Tests.EnumerableExtensionsTest.IsEmptyTest(System.Collections.Generic.IEnumerable{System.Object},System.Boolean)
+  name.vb: IsEmptyTest(IEnumerable(Of Object), Boolean)
+  fullName: Extensions.Tests.EnumerableExtensionsTest.IsEmptyTest(System.Collections.Generic.IEnumerable<object>?, bool)
+  fullName.vb: Extensions.Tests.EnumerableExtensionsTest.IsEmptyTest(System.Collections.Generic.IEnumerable(Of Object), Boolean)
+  nameWithType: EnumerableExtensionsTest.IsEmptyTest(IEnumerable<object>?, bool)
+  nameWithType.vb: EnumerableExtensionsTest.IsEmptyTest(IEnumerable(Of Object), Boolean)
+- uid: Extensions.Tests.EnumerableExtensionsTest.IsEmptyTest*
+  name: IsEmptyTest
+  href: obj/api/Extensions.Tests.EnumerableExtensionsTest.html#Extensions_Tests_EnumerableExtensionsTest_IsEmptyTest_
+  commentId: Overload:Extensions.Tests.EnumerableExtensionsTest.IsEmptyTest
+  isSpec: "True"
+  fullName: Extensions.Tests.EnumerableExtensionsTest.IsEmptyTest
+  nameWithType: EnumerableExtensionsTest.IsEmptyTest
+- uid: Extensions.Tests.EnumerableExtensionsTest.IsNotEmptyTest(System.Collections.Generic.IEnumerable{System.Object},System.Boolean)
+  name: IsNotEmptyTest(IEnumerable<object>?, bool)
+  href: obj/api/Extensions.Tests.EnumerableExtensionsTest.html#Extensions_Tests_EnumerableExtensionsTest_IsNotEmptyTest_System_Collections_Generic_IEnumerable_System_Object__System_Boolean_
+  commentId: M:Extensions.Tests.EnumerableExtensionsTest.IsNotEmptyTest(System.Collections.Generic.IEnumerable{System.Object},System.Boolean)
+  name.vb: IsNotEmptyTest(IEnumerable(Of Object), Boolean)
+  fullName: Extensions.Tests.EnumerableExtensionsTest.IsNotEmptyTest(System.Collections.Generic.IEnumerable<object>?, bool)
+  fullName.vb: Extensions.Tests.EnumerableExtensionsTest.IsNotEmptyTest(System.Collections.Generic.IEnumerable(Of Object), Boolean)
+  nameWithType: EnumerableExtensionsTest.IsNotEmptyTest(IEnumerable<object>?, bool)
+  nameWithType.vb: EnumerableExtensionsTest.IsNotEmptyTest(IEnumerable(Of Object), Boolean)
+- uid: Extensions.Tests.EnumerableExtensionsTest.IsNotEmptyTest*
+  name: IsNotEmptyTest
+  href: obj/api/Extensions.Tests.EnumerableExtensionsTest.html#Extensions_Tests_EnumerableExtensionsTest_IsNotEmptyTest_
+  commentId: Overload:Extensions.Tests.EnumerableExtensionsTest.IsNotEmptyTest
+  isSpec: "True"
+  fullName: Extensions.Tests.EnumerableExtensionsTest.IsNotEmptyTest
+  nameWithType: EnumerableExtensionsTest.IsNotEmptyTest
+- uid: Extensions.Tests.StringExtensionsTest
+  name: StringExtensionsTest
+  href: obj/api/Extensions.Tests.StringExtensionsTest.html
+  commentId: T:Extensions.Tests.StringExtensionsTest
+  fullName: Extensions.Tests.StringExtensionsTest
+  nameWithType: StringExtensionsTest
+- uid: Extensions.Tests.StringExtensionsTest.GetGenderId
+  name: GetGenderId()
+  href: obj/api/Extensions.Tests.StringExtensionsTest.html#Extensions_Tests_StringExtensionsTest_GetGenderId
+  commentId: M:Extensions.Tests.StringExtensionsTest.GetGenderId
+  fullName: Extensions.Tests.StringExtensionsTest.GetGenderId()
+  nameWithType: StringExtensionsTest.GetGenderId()
+- uid: Extensions.Tests.StringExtensionsTest.GetGenderId*
+  name: GetGenderId
+  href: obj/api/Extensions.Tests.StringExtensionsTest.html#Extensions_Tests_StringExtensionsTest_GetGenderId_
+  commentId: Overload:Extensions.Tests.StringExtensionsTest.GetGenderId
+  isSpec: "True"
+  fullName: Extensions.Tests.StringExtensionsTest.GetGenderId
+  nameWithType: StringExtensionsTest.GetGenderId
+- uid: Extensions.Tests.StringExtensionsTest.GetSalutation
+  name: GetSalutation()
+  href: obj/api/Extensions.Tests.StringExtensionsTest.html#Extensions_Tests_StringExtensionsTest_GetSalutation
+  commentId: M:Extensions.Tests.StringExtensionsTest.GetSalutation
+  fullName: Extensions.Tests.StringExtensionsTest.GetSalutation()
+  nameWithType: StringExtensionsTest.GetSalutation()
+- uid: Extensions.Tests.StringExtensionsTest.GetSalutation*
+  name: GetSalutation
+  href: obj/api/Extensions.Tests.StringExtensionsTest.html#Extensions_Tests_StringExtensionsTest_GetSalutation_
+  commentId: Overload:Extensions.Tests.StringExtensionsTest.GetSalutation
+  isSpec: "True"
+  fullName: Extensions.Tests.StringExtensionsTest.GetSalutation
+  nameWithType: StringExtensionsTest.GetSalutation
+- uid: Generators
+  name: Generators
+  href: api/Generators.html
+  commentId: N:Generators
+  fullName: Generators
+  nameWithType: Generators
+- uid: Generators.DataTableGenerator`1
+  name: DataTableGenerator<T>
+  href: api/Generators.DataTableGenerator-1.html
+  commentId: T:Generators.DataTableGenerator`1
+  name.vb: DataTableGenerator(Of T)
+  fullName: Generators.DataTableGenerator<T>
+  fullName.vb: Generators.DataTableGenerator(Of T)
+  nameWithType: DataTableGenerator<T>
+  nameWithType.vb: DataTableGenerator(Of T)
+- uid: Generators.DataTableGenerator`1.#ctor(Microsoft.Extensions.Logging.ILogger{Generators.DataTableGenerator{`0}})
+  name: DataTableGenerator(ILogger<DataTableGenerator<T>>)
+  href: api/Generators.DataTableGenerator-1.html#Generators_DataTableGenerator_1__ctor_Microsoft_Extensions_Logging_ILogger_Generators_DataTableGenerator__0___
+  commentId: M:Generators.DataTableGenerator`1.#ctor(Microsoft.Extensions.Logging.ILogger{Generators.DataTableGenerator{`0}})
+  name.vb: New(ILogger(Of DataTableGenerator(Of T)))
+  fullName: Generators.DataTableGenerator<T>.DataTableGenerator(Microsoft.Extensions.Logging.ILogger<Generators.DataTableGenerator<T>>)
+  fullName.vb: Generators.DataTableGenerator(Of T).New(Microsoft.Extensions.Logging.ILogger(Of Generators.DataTableGenerator(Of T)))
+  nameWithType: DataTableGenerator<T>.DataTableGenerator(ILogger<DataTableGenerator<T>>)
+  nameWithType.vb: DataTableGenerator(Of T).New(ILogger(Of DataTableGenerator(Of T)))
+- uid: Generators.DataTableGenerator`1.#ctor*
+  name: DataTableGenerator
+  href: api/Generators.DataTableGenerator-1.html#Generators_DataTableGenerator_1__ctor_
+  commentId: Overload:Generators.DataTableGenerator`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Generators.DataTableGenerator<T>.DataTableGenerator
+  fullName.vb: Generators.DataTableGenerator(Of T).New
+  nameWithType: DataTableGenerator<T>.DataTableGenerator
+  nameWithType.vb: DataTableGenerator(Of T).New
+- uid: Generators.DataTableGenerator`1.GenerateDataTableFromModelList(System.Collections.Generic.IList{`0},System.Boolean)
+  name: GenerateDataTableFromModelList(IList<T>, bool)
+  href: api/Generators.DataTableGenerator-1.html#Generators_DataTableGenerator_1_GenerateDataTableFromModelList_System_Collections_Generic_IList__0__System_Boolean_
+  commentId: M:Generators.DataTableGenerator`1.GenerateDataTableFromModelList(System.Collections.Generic.IList{`0},System.Boolean)
+  name.vb: GenerateDataTableFromModelList(IList(Of T), Boolean)
+  fullName: Generators.DataTableGenerator<T>.GenerateDataTableFromModelList(System.Collections.Generic.IList<T>, bool)
+  fullName.vb: Generators.DataTableGenerator(Of T).GenerateDataTableFromModelList(System.Collections.Generic.IList(Of T), Boolean)
+  nameWithType: DataTableGenerator<T>.GenerateDataTableFromModelList(IList<T>, bool)
+  nameWithType.vb: DataTableGenerator(Of T).GenerateDataTableFromModelList(IList(Of T), Boolean)
+- uid: Generators.DataTableGenerator`1.GenerateDataTableFromModelList*
+  name: GenerateDataTableFromModelList
+  href: api/Generators.DataTableGenerator-1.html#Generators_DataTableGenerator_1_GenerateDataTableFromModelList_
+  commentId: Overload:Generators.DataTableGenerator`1.GenerateDataTableFromModelList
+  isSpec: "True"
+  fullName: Generators.DataTableGenerator<T>.GenerateDataTableFromModelList
+  fullName.vb: Generators.DataTableGenerator(Of T).GenerateDataTableFromModelList
+  nameWithType: DataTableGenerator<T>.GenerateDataTableFromModelList
+  nameWithType.vb: DataTableGenerator(Of T).GenerateDataTableFromModelList
+- uid: Generators.Hash
+  name: Hash
+  href: api/Generators.Hash.html
+  commentId: T:Generators.Hash
+  fullName: Generators.Hash
+  nameWithType: Hash
+- uid: Generators.Hash.GetHashString(System.String)
+  name: GetHashString(string)
+  href: api/Generators.Hash.html#Generators_Hash_GetHashString_System_String_
+  commentId: M:Generators.Hash.GetHashString(System.String)
+  name.vb: GetHashString(String)
+  fullName: Generators.Hash.GetHashString(string)
+  fullName.vb: Generators.Hash.GetHashString(String)
+  nameWithType: Hash.GetHashString(string)
+  nameWithType.vb: Hash.GetHashString(String)
+- uid: Generators.Hash.GetHashString*
+  name: GetHashString
+  href: api/Generators.Hash.html#Generators_Hash_GetHashString_
+  commentId: Overload:Generators.Hash.GetHashString
+  isSpec: "True"
+  fullName: Generators.Hash.GetHashString
+  nameWithType: Hash.GetHashString
+- uid: Generators.TemporaryDirectory
+  name: TemporaryDirectory
+  href: api/Generators.TemporaryDirectory.html
+  commentId: T:Generators.TemporaryDirectory
+  fullName: Generators.TemporaryDirectory
+  nameWithType: TemporaryDirectory
+- uid: Generators.TemporaryDirectory.GetTemporaryDirectory
+  name: GetTemporaryDirectory()
+  href: api/Generators.TemporaryDirectory.html#Generators_TemporaryDirectory_GetTemporaryDirectory
+  commentId: M:Generators.TemporaryDirectory.GetTemporaryDirectory
+  fullName: Generators.TemporaryDirectory.GetTemporaryDirectory()
+  nameWithType: TemporaryDirectory.GetTemporaryDirectory()
+- uid: Generators.TemporaryDirectory.GetTemporaryDirectory*
+  name: GetTemporaryDirectory
+  href: api/Generators.TemporaryDirectory.html#Generators_TemporaryDirectory_GetTemporaryDirectory_
+  commentId: Overload:Generators.TemporaryDirectory.GetTemporaryDirectory
+  isSpec: "True"
+  fullName: Generators.TemporaryDirectory.GetTemporaryDirectory
+  nameWithType: TemporaryDirectory.GetTemporaryDirectory
+- uid: Generators.TemporaryFile
+  name: TemporaryFile
+  href: api/Generators.TemporaryFile.html
+  commentId: T:Generators.TemporaryFile
+  fullName: Generators.TemporaryFile
+  nameWithType: TemporaryFile
+- uid: Generators.TemporaryFile.#ctor
+  name: TemporaryFile()
+  href: api/Generators.TemporaryFile.html#Generators_TemporaryFile__ctor
+  commentId: M:Generators.TemporaryFile.#ctor
+  name.vb: New()
+  fullName: Generators.TemporaryFile.TemporaryFile()
+  fullName.vb: Generators.TemporaryFile.New()
+  nameWithType: TemporaryFile.TemporaryFile()
+  nameWithType.vb: TemporaryFile.New()
+- uid: Generators.TemporaryFile.#ctor(System.String)
+  name: TemporaryFile(string)
+  href: api/Generators.TemporaryFile.html#Generators_TemporaryFile__ctor_System_String_
+  commentId: M:Generators.TemporaryFile.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Generators.TemporaryFile.TemporaryFile(string)
+  fullName.vb: Generators.TemporaryFile.New(String)
+  nameWithType: TemporaryFile.TemporaryFile(string)
+  nameWithType.vb: TemporaryFile.New(String)
+- uid: Generators.TemporaryFile.#ctor*
+  name: TemporaryFile
+  href: api/Generators.TemporaryFile.html#Generators_TemporaryFile__ctor_
+  commentId: Overload:Generators.TemporaryFile.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Generators.TemporaryFile.TemporaryFile
+  fullName.vb: Generators.TemporaryFile.New
+  nameWithType: TemporaryFile.TemporaryFile
+  nameWithType.vb: TemporaryFile.New
+- uid: Generators.TemporaryFile.Dispose
+  name: Dispose()
+  href: api/Generators.TemporaryFile.html#Generators_TemporaryFile_Dispose
+  commentId: M:Generators.TemporaryFile.Dispose
+  fullName: Generators.TemporaryFile.Dispose()
+  nameWithType: TemporaryFile.Dispose()
+- uid: Generators.TemporaryFile.Dispose*
+  name: Dispose
+  href: api/Generators.TemporaryFile.html#Generators_TemporaryFile_Dispose_
+  commentId: Overload:Generators.TemporaryFile.Dispose
+  isSpec: "True"
+  fullName: Generators.TemporaryFile.Dispose
+  nameWithType: TemporaryFile.Dispose
+- uid: Generators.TemporaryFile.FilePath
+  name: FilePath
+  href: api/Generators.TemporaryFile.html#Generators_TemporaryFile_FilePath
+  commentId: P:Generators.TemporaryFile.FilePath
+  fullName: Generators.TemporaryFile.FilePath
+  nameWithType: TemporaryFile.FilePath
+- uid: Generators.TemporaryFile.FilePath*
+  name: FilePath
+  href: api/Generators.TemporaryFile.html#Generators_TemporaryFile_FilePath_
+  commentId: Overload:Generators.TemporaryFile.FilePath
+  isSpec: "True"
+  fullName: Generators.TemporaryFile.FilePath
+  nameWithType: TemporaryFile.FilePath
+- uid: Generators.TemporaryFile.Finalize
+  name: ~TemporaryFile()
+  href: api/Generators.TemporaryFile.html#Generators_TemporaryFile_Finalize
+  commentId: M:Generators.TemporaryFile.Finalize
+  name.vb: ''
+  fullName: Generators.TemporaryFile.~TemporaryFile()
+  fullName.vb: ''
+  nameWithType: TemporaryFile.~TemporaryFile()
+  nameWithType.vb: ''
+- uid: Generators.TemporaryFile.Finalize*
+  name: ~TemporaryFile
+  href: api/Generators.TemporaryFile.html#Generators_TemporaryFile_Finalize_
+  commentId: Overload:Generators.TemporaryFile.Finalize
+  isSpec: "True"
+  fullName: Generators.TemporaryFile.~TemporaryFile
+  nameWithType: TemporaryFile.~TemporaryFile
+- uid: Generators.Tests
+  name: Generators.Tests
+  href: obj/api/Generators.Tests.html
+  commentId: N:Generators.Tests
+  fullName: Generators.Tests
+  nameWithType: Generators.Tests
+- uid: Generators.Tests.DataTableGeneratorTest
+  name: DataTableGeneratorTest
+  href: obj/api/Generators.Tests.DataTableGeneratorTest.html
+  commentId: T:Generators.Tests.DataTableGeneratorTest
+  fullName: Generators.Tests.DataTableGeneratorTest
+  nameWithType: DataTableGeneratorTest
+- uid: Generators.Tests.DataTableGeneratorTest.Initialize
+  name: Initialize()
+  href: obj/api/Generators.Tests.DataTableGeneratorTest.html#Generators_Tests_DataTableGeneratorTest_Initialize
+  commentId: M:Generators.Tests.DataTableGeneratorTest.Initialize
+  fullName: Generators.Tests.DataTableGeneratorTest.Initialize()
+  nameWithType: DataTableGeneratorTest.Initialize()
+- uid: Generators.Tests.DataTableGeneratorTest.Initialize*
+  name: Initialize
+  href: obj/api/Generators.Tests.DataTableGeneratorTest.html#Generators_Tests_DataTableGeneratorTest_Initialize_
+  commentId: Overload:Generators.Tests.DataTableGeneratorTest.Initialize
+  isSpec: "True"
+  fullName: Generators.Tests.DataTableGeneratorTest.Initialize
+  nameWithType: DataTableGeneratorTest.Initialize
+- uid: Generators.Tests.DataTableGeneratorTest.TestGenerateDataTableFromModelListWithId
+  name: TestGenerateDataTableFromModelListWithId()
+  href: obj/api/Generators.Tests.DataTableGeneratorTest.html#Generators_Tests_DataTableGeneratorTest_TestGenerateDataTableFromModelListWithId
+  commentId: M:Generators.Tests.DataTableGeneratorTest.TestGenerateDataTableFromModelListWithId
+  fullName: Generators.Tests.DataTableGeneratorTest.TestGenerateDataTableFromModelListWithId()
+  nameWithType: DataTableGeneratorTest.TestGenerateDataTableFromModelListWithId()
+- uid: Generators.Tests.DataTableGeneratorTest.TestGenerateDataTableFromModelListWithId*
+  name: TestGenerateDataTableFromModelListWithId
+  href: obj/api/Generators.Tests.DataTableGeneratorTest.html#Generators_Tests_DataTableGeneratorTest_TestGenerateDataTableFromModelListWithId_
+  commentId: Overload:Generators.Tests.DataTableGeneratorTest.TestGenerateDataTableFromModelListWithId
+  isSpec: "True"
+  fullName: Generators.Tests.DataTableGeneratorTest.TestGenerateDataTableFromModelListWithId
+  nameWithType: DataTableGeneratorTest.TestGenerateDataTableFromModelListWithId
+- uid: Generators.Tests.DataTableGeneratorTest.TestGenerateDataTableFromModelListWithoutId
+  name: TestGenerateDataTableFromModelListWithoutId()
+  href: obj/api/Generators.Tests.DataTableGeneratorTest.html#Generators_Tests_DataTableGeneratorTest_TestGenerateDataTableFromModelListWithoutId
+  commentId: M:Generators.Tests.DataTableGeneratorTest.TestGenerateDataTableFromModelListWithoutId
+  fullName: Generators.Tests.DataTableGeneratorTest.TestGenerateDataTableFromModelListWithoutId()
+  nameWithType: DataTableGeneratorTest.TestGenerateDataTableFromModelListWithoutId()
+- uid: Generators.Tests.DataTableGeneratorTest.TestGenerateDataTableFromModelListWithoutId*
+  name: TestGenerateDataTableFromModelListWithoutId
+  href: obj/api/Generators.Tests.DataTableGeneratorTest.html#Generators_Tests_DataTableGeneratorTest_TestGenerateDataTableFromModelListWithoutId_
+  commentId: Overload:Generators.Tests.DataTableGeneratorTest.TestGenerateDataTableFromModelListWithoutId
+  isSpec: "True"
+  fullName: Generators.Tests.DataTableGeneratorTest.TestGenerateDataTableFromModelListWithoutId
+  nameWithType: DataTableGeneratorTest.TestGenerateDataTableFromModelListWithoutId
+- uid: Generators.Tests.DataTableGeneratorTest.TestGenerateDataTableFromNullModelList
+  name: TestGenerateDataTableFromNullModelList()
+  href: obj/api/Generators.Tests.DataTableGeneratorTest.html#Generators_Tests_DataTableGeneratorTest_TestGenerateDataTableFromNullModelList
+  commentId: M:Generators.Tests.DataTableGeneratorTest.TestGenerateDataTableFromNullModelList
+  fullName: Generators.Tests.DataTableGeneratorTest.TestGenerateDataTableFromNullModelList()
+  nameWithType: DataTableGeneratorTest.TestGenerateDataTableFromNullModelList()
+- uid: Generators.Tests.DataTableGeneratorTest.TestGenerateDataTableFromNullModelList*
+  name: TestGenerateDataTableFromNullModelList
+  href: obj/api/Generators.Tests.DataTableGeneratorTest.html#Generators_Tests_DataTableGeneratorTest_TestGenerateDataTableFromNullModelList_
+  commentId: Overload:Generators.Tests.DataTableGeneratorTest.TestGenerateDataTableFromNullModelList
+  isSpec: "True"
+  fullName: Generators.Tests.DataTableGeneratorTest.TestGenerateDataTableFromNullModelList
+  nameWithType: DataTableGeneratorTest.TestGenerateDataTableFromNullModelList
+- uid: Generators.Tests.DataTableGeneratorTest.TestModel
+  name: DataTableGeneratorTest.TestModel
+  href: obj/api/Generators.Tests.DataTableGeneratorTest.TestModel.html
+  commentId: T:Generators.Tests.DataTableGeneratorTest.TestModel
+  fullName: Generators.Tests.DataTableGeneratorTest.TestModel
+  nameWithType: DataTableGeneratorTest.TestModel
+- uid: Generators.Tests.DataTableGeneratorTest.TestModel.Id
+  name: Id
+  href: obj/api/Generators.Tests.DataTableGeneratorTest.TestModel.html#Generators_Tests_DataTableGeneratorTest_TestModel_Id
+  commentId: P:Generators.Tests.DataTableGeneratorTest.TestModel.Id
+  fullName: Generators.Tests.DataTableGeneratorTest.TestModel.Id
+  nameWithType: DataTableGeneratorTest.TestModel.Id
+- uid: Generators.Tests.DataTableGeneratorTest.TestModel.Id*
+  name: Id
+  href: obj/api/Generators.Tests.DataTableGeneratorTest.TestModel.html#Generators_Tests_DataTableGeneratorTest_TestModel_Id_
+  commentId: Overload:Generators.Tests.DataTableGeneratorTest.TestModel.Id
+  isSpec: "True"
+  fullName: Generators.Tests.DataTableGeneratorTest.TestModel.Id
+  nameWithType: DataTableGeneratorTest.TestModel.Id
+- uid: Generators.Tests.DataTableGeneratorTest.TestModel.Value
+  name: Value
+  href: obj/api/Generators.Tests.DataTableGeneratorTest.TestModel.html#Generators_Tests_DataTableGeneratorTest_TestModel_Value
+  commentId: P:Generators.Tests.DataTableGeneratorTest.TestModel.Value
+  fullName: Generators.Tests.DataTableGeneratorTest.TestModel.Value
+  nameWithType: DataTableGeneratorTest.TestModel.Value
+- uid: Generators.Tests.DataTableGeneratorTest.TestModel.Value*
+  name: Value
+  href: obj/api/Generators.Tests.DataTableGeneratorTest.TestModel.html#Generators_Tests_DataTableGeneratorTest_TestModel_Value_
+  commentId: Overload:Generators.Tests.DataTableGeneratorTest.TestModel.Value
+  isSpec: "True"
+  fullName: Generators.Tests.DataTableGeneratorTest.TestModel.Value
+  nameWithType: DataTableGeneratorTest.TestModel.Value
+- uid: Generators.Tests.TemporaryDirectoryTest
+  name: TemporaryDirectoryTest
+  href: obj/api/Generators.Tests.TemporaryDirectoryTest.html
+  commentId: T:Generators.Tests.TemporaryDirectoryTest
+  fullName: Generators.Tests.TemporaryDirectoryTest
+  nameWithType: TemporaryDirectoryTest
+- uid: Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldCreateDirectory
+  name: GetTemporaryDirectory_ShouldCreateDirectory()
+  href: obj/api/Generators.Tests.TemporaryDirectoryTest.html#Generators_Tests_TemporaryDirectoryTest_GetTemporaryDirectory_ShouldCreateDirectory
+  commentId: M:Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldCreateDirectory
+  fullName: Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldCreateDirectory()
+  nameWithType: TemporaryDirectoryTest.GetTemporaryDirectory_ShouldCreateDirectory()
+- uid: Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldCreateDirectory*
+  name: GetTemporaryDirectory_ShouldCreateDirectory
+  href: obj/api/Generators.Tests.TemporaryDirectoryTest.html#Generators_Tests_TemporaryDirectoryTest_GetTemporaryDirectory_ShouldCreateDirectory_
+  commentId: Overload:Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldCreateDirectory
+  isSpec: "True"
+  fullName: Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldCreateDirectory
+  nameWithType: TemporaryDirectoryTest.GetTemporaryDirectory_ShouldCreateDirectory
+- uid: Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldHandleConcurrentCalls
+  name: GetTemporaryDirectory_ShouldHandleConcurrentCalls()
+  href: obj/api/Generators.Tests.TemporaryDirectoryTest.html#Generators_Tests_TemporaryDirectoryTest_GetTemporaryDirectory_ShouldHandleConcurrentCalls
+  commentId: M:Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldHandleConcurrentCalls
+  fullName: Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldHandleConcurrentCalls()
+  nameWithType: TemporaryDirectoryTest.GetTemporaryDirectory_ShouldHandleConcurrentCalls()
+- uid: Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldHandleConcurrentCalls*
+  name: GetTemporaryDirectory_ShouldHandleConcurrentCalls
+  href: obj/api/Generators.Tests.TemporaryDirectoryTest.html#Generators_Tests_TemporaryDirectoryTest_GetTemporaryDirectory_ShouldHandleConcurrentCalls_
+  commentId: Overload:Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldHandleConcurrentCalls
+  isSpec: "True"
+  fullName: Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldHandleConcurrentCalls
+  nameWithType: TemporaryDirectoryTest.GetTemporaryDirectory_ShouldHandleConcurrentCalls
+- uid: Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldHandleExistingDirectory
+  name: GetTemporaryDirectory_ShouldHandleExistingDirectory()
+  href: obj/api/Generators.Tests.TemporaryDirectoryTest.html#Generators_Tests_TemporaryDirectoryTest_GetTemporaryDirectory_ShouldHandleExistingDirectory
+  commentId: M:Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldHandleExistingDirectory
+  fullName: Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldHandleExistingDirectory()
+  nameWithType: TemporaryDirectoryTest.GetTemporaryDirectory_ShouldHandleExistingDirectory()
+- uid: Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldHandleExistingDirectory*
+  name: GetTemporaryDirectory_ShouldHandleExistingDirectory
+  href: obj/api/Generators.Tests.TemporaryDirectoryTest.html#Generators_Tests_TemporaryDirectoryTest_GetTemporaryDirectory_ShouldHandleExistingDirectory_
+  commentId: Overload:Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldHandleExistingDirectory
+  isSpec: "True"
+  fullName: Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldHandleExistingDirectory
+  nameWithType: TemporaryDirectoryTest.GetTemporaryDirectory_ShouldHandleExistingDirectory
+- uid: Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldReturnUniqueDirectoryPaths
+  name: GetTemporaryDirectory_ShouldReturnUniqueDirectoryPaths()
+  href: obj/api/Generators.Tests.TemporaryDirectoryTest.html#Generators_Tests_TemporaryDirectoryTest_GetTemporaryDirectory_ShouldReturnUniqueDirectoryPaths
+  commentId: M:Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldReturnUniqueDirectoryPaths
+  fullName: Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldReturnUniqueDirectoryPaths()
+  nameWithType: TemporaryDirectoryTest.GetTemporaryDirectory_ShouldReturnUniqueDirectoryPaths()
+- uid: Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldReturnUniqueDirectoryPaths*
+  name: GetTemporaryDirectory_ShouldReturnUniqueDirectoryPaths
+  href: obj/api/Generators.Tests.TemporaryDirectoryTest.html#Generators_Tests_TemporaryDirectoryTest_GetTemporaryDirectory_ShouldReturnUniqueDirectoryPaths_
+  commentId: Overload:Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldReturnUniqueDirectoryPaths
+  isSpec: "True"
+  fullName: Generators.Tests.TemporaryDirectoryTest.GetTemporaryDirectory_ShouldReturnUniqueDirectoryPaths
+  nameWithType: TemporaryDirectoryTest.GetTemporaryDirectory_ShouldReturnUniqueDirectoryPaths
+- uid: Patterns
+  name: Patterns
+  href: api/Patterns.html
+  commentId: N:Patterns
+  fullName: Patterns
+  nameWithType: Patterns
+- uid: Patterns.IPipeline`1
+  name: IPipeline<T>
+  href: api/Patterns.IPipeline-1.html
+  commentId: T:Patterns.IPipeline`1
+  name.vb: IPipeline(Of T)
+  fullName: Patterns.IPipeline<T>
+  fullName.vb: Patterns.IPipeline(Of T)
+  nameWithType: IPipeline<T>
+  nameWithType.vb: IPipeline(Of T)
+- uid: Patterns.IPipeline`1.Name
+  name: Name
+  href: api/Patterns.IPipeline-1.html#Patterns_IPipeline_1_Name
+  commentId: P:Patterns.IPipeline`1.Name
+  fullName: Patterns.IPipeline<T>.Name
+  fullName.vb: Patterns.IPipeline(Of T).Name
+  nameWithType: IPipeline<T>.Name
+  nameWithType.vb: IPipeline(Of T).Name
+- uid: Patterns.IPipeline`1.Name*
+  name: Name
+  href: api/Patterns.IPipeline-1.html#Patterns_IPipeline_1_Name_
+  commentId: Overload:Patterns.IPipeline`1.Name
+  isSpec: "True"
+  fullName: Patterns.IPipeline<T>.Name
+  fullName.vb: Patterns.IPipeline(Of T).Name
+  nameWithType: IPipeline<T>.Name
+  nameWithType.vb: IPipeline(Of T).Name
+- uid: Patterns.IPipeline`1.StartAsync(`0)
+  name: StartAsync(T)
+  href: api/Patterns.IPipeline-1.html#Patterns_IPipeline_1_StartAsync__0_
+  commentId: M:Patterns.IPipeline`1.StartAsync(`0)
+  fullName: Patterns.IPipeline<T>.StartAsync(T)
+  fullName.vb: Patterns.IPipeline(Of T).StartAsync(T)
+  nameWithType: IPipeline<T>.StartAsync(T)
+  nameWithType.vb: IPipeline(Of T).StartAsync(T)
+- uid: Patterns.IPipeline`1.StartAsync*
+  name: StartAsync
+  href: api/Patterns.IPipeline-1.html#Patterns_IPipeline_1_StartAsync_
+  commentId: Overload:Patterns.IPipeline`1.StartAsync
+  isSpec: "True"
+  fullName: Patterns.IPipeline<T>.StartAsync
+  fullName.vb: Patterns.IPipeline(Of T).StartAsync
+  nameWithType: IPipeline<T>.StartAsync
+  nameWithType.vb: IPipeline(Of T).StartAsync
+- uid: Patterns.IPipeline`1.Steps
+  name: Steps
+  href: api/Patterns.IPipeline-1.html#Patterns_IPipeline_1_Steps
+  commentId: P:Patterns.IPipeline`1.Steps
+  fullName: Patterns.IPipeline<T>.Steps
+  fullName.vb: Patterns.IPipeline(Of T).Steps
+  nameWithType: IPipeline<T>.Steps
+  nameWithType.vb: IPipeline(Of T).Steps
+- uid: Patterns.IPipeline`1.Steps*
+  name: Steps
+  href: api/Patterns.IPipeline-1.html#Patterns_IPipeline_1_Steps_
+  commentId: Overload:Patterns.IPipeline`1.Steps
+  isSpec: "True"
+  fullName: Patterns.IPipeline<T>.Steps
+  fullName.vb: Patterns.IPipeline(Of T).Steps
+  nameWithType: IPipeline<T>.Steps
+  nameWithType.vb: IPipeline(Of T).Steps
+- uid: Patterns.IPipeline`1.WithStep(Patterns.IStep{`0})
+  name: WithStep(IStep<T>)
+  href: api/Patterns.IPipeline-1.html#Patterns_IPipeline_1_WithStep_Patterns_IStep__0__
+  commentId: M:Patterns.IPipeline`1.WithStep(Patterns.IStep{`0})
+  name.vb: WithStep(IStep(Of T))
+  fullName: Patterns.IPipeline<T>.WithStep(Patterns.IStep<T>)
+  fullName.vb: Patterns.IPipeline(Of T).WithStep(Patterns.IStep(Of T))
+  nameWithType: IPipeline<T>.WithStep(IStep<T>)
+  nameWithType.vb: IPipeline(Of T).WithStep(IStep(Of T))
+- uid: Patterns.IPipeline`1.WithStep*
+  name: WithStep
+  href: api/Patterns.IPipeline-1.html#Patterns_IPipeline_1_WithStep_
+  commentId: Overload:Patterns.IPipeline`1.WithStep
+  isSpec: "True"
+  fullName: Patterns.IPipeline<T>.WithStep
+  fullName.vb: Patterns.IPipeline(Of T).WithStep
+  nameWithType: IPipeline<T>.WithStep
+  nameWithType.vb: IPipeline(Of T).WithStep
+- uid: Patterns.IStep`1
+  name: IStep<T>
+  href: api/Patterns.IStep-1.html
+  commentId: T:Patterns.IStep`1
+  name.vb: IStep(Of T)
+  fullName: Patterns.IStep<T>
+  fullName.vb: Patterns.IStep(Of T)
+  nameWithType: IStep<T>
+  nameWithType.vb: IStep(Of T)
+- uid: Patterns.IStep`1.ExecuteAsync(`0)
+  name: ExecuteAsync(T)
+  href: api/Patterns.IStep-1.html#Patterns_IStep_1_ExecuteAsync__0_
+  commentId: M:Patterns.IStep`1.ExecuteAsync(`0)
+  fullName: Patterns.IStep<T>.ExecuteAsync(T)
+  fullName.vb: Patterns.IStep(Of T).ExecuteAsync(T)
+  nameWithType: IStep<T>.ExecuteAsync(T)
+  nameWithType.vb: IStep(Of T).ExecuteAsync(T)
+- uid: Patterns.IStep`1.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/Patterns.IStep-1.html#Patterns_IStep_1_ExecuteAsync_
+  commentId: Overload:Patterns.IStep`1.ExecuteAsync
+  isSpec: "True"
+  fullName: Patterns.IStep<T>.ExecuteAsync
+  fullName.vb: Patterns.IStep(Of T).ExecuteAsync
+  nameWithType: IStep<T>.ExecuteAsync
+  nameWithType.vb: IStep(Of T).ExecuteAsync
+- uid: Patterns.Pipeline`1
+  name: Pipeline<T>
+  href: api/Patterns.Pipeline-1.html
+  commentId: T:Patterns.Pipeline`1
+  name.vb: Pipeline(Of T)
+  fullName: Patterns.Pipeline<T>
+  fullName.vb: Patterns.Pipeline(Of T)
+  nameWithType: Pipeline<T>
+  nameWithType.vb: Pipeline(Of T)
+- uid: Patterns.Pipeline`1.#ctor(System.String,Microsoft.Extensions.Logging.ILogger{Patterns.Pipeline{`0}})
+  name: Pipeline(string, ILogger<Pipeline<T>>)
+  href: api/Patterns.Pipeline-1.html#Patterns_Pipeline_1__ctor_System_String_Microsoft_Extensions_Logging_ILogger_Patterns_Pipeline__0___
+  commentId: M:Patterns.Pipeline`1.#ctor(System.String,Microsoft.Extensions.Logging.ILogger{Patterns.Pipeline{`0}})
+  name.vb: New(String, ILogger(Of Pipeline(Of T)))
+  fullName: Patterns.Pipeline<T>.Pipeline(string, Microsoft.Extensions.Logging.ILogger<Patterns.Pipeline<T>>)
+  fullName.vb: Patterns.Pipeline(Of T).New(String, Microsoft.Extensions.Logging.ILogger(Of Patterns.Pipeline(Of T)))
+  nameWithType: Pipeline<T>.Pipeline(string, ILogger<Pipeline<T>>)
+  nameWithType.vb: Pipeline(Of T).New(String, ILogger(Of Pipeline(Of T)))
+- uid: Patterns.Pipeline`1.#ctor*
+  name: Pipeline
+  href: api/Patterns.Pipeline-1.html#Patterns_Pipeline_1__ctor_
+  commentId: Overload:Patterns.Pipeline`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Patterns.Pipeline<T>.Pipeline
+  fullName.vb: Patterns.Pipeline(Of T).New
+  nameWithType: Pipeline<T>.Pipeline
+  nameWithType.vb: Pipeline(Of T).New
+- uid: Patterns.Pipeline`1.Name
+  name: Name
+  href: api/Patterns.Pipeline-1.html#Patterns_Pipeline_1_Name
+  commentId: P:Patterns.Pipeline`1.Name
+  fullName: Patterns.Pipeline<T>.Name
+  fullName.vb: Patterns.Pipeline(Of T).Name
+  nameWithType: Pipeline<T>.Name
+  nameWithType.vb: Pipeline(Of T).Name
+- uid: Patterns.Pipeline`1.Name*
+  name: Name
+  href: api/Patterns.Pipeline-1.html#Patterns_Pipeline_1_Name_
+  commentId: Overload:Patterns.Pipeline`1.Name
+  isSpec: "True"
+  fullName: Patterns.Pipeline<T>.Name
+  fullName.vb: Patterns.Pipeline(Of T).Name
+  nameWithType: Pipeline<T>.Name
+  nameWithType.vb: Pipeline(Of T).Name
+- uid: Patterns.Pipeline`1.StartAsync(`0)
+  name: StartAsync(T)
+  href: api/Patterns.Pipeline-1.html#Patterns_Pipeline_1_StartAsync__0_
+  commentId: M:Patterns.Pipeline`1.StartAsync(`0)
+  fullName: Patterns.Pipeline<T>.StartAsync(T)
+  fullName.vb: Patterns.Pipeline(Of T).StartAsync(T)
+  nameWithType: Pipeline<T>.StartAsync(T)
+  nameWithType.vb: Pipeline(Of T).StartAsync(T)
+- uid: Patterns.Pipeline`1.StartAsync*
+  name: StartAsync
+  href: api/Patterns.Pipeline-1.html#Patterns_Pipeline_1_StartAsync_
+  commentId: Overload:Patterns.Pipeline`1.StartAsync
+  isSpec: "True"
+  fullName: Patterns.Pipeline<T>.StartAsync
+  fullName.vb: Patterns.Pipeline(Of T).StartAsync
+  nameWithType: Pipeline<T>.StartAsync
+  nameWithType.vb: Pipeline(Of T).StartAsync
+- uid: Patterns.Pipeline`1.Steps
+  name: Steps
+  href: api/Patterns.Pipeline-1.html#Patterns_Pipeline_1_Steps
+  commentId: P:Patterns.Pipeline`1.Steps
+  fullName: Patterns.Pipeline<T>.Steps
+  fullName.vb: Patterns.Pipeline(Of T).Steps
+  nameWithType: Pipeline<T>.Steps
+  nameWithType.vb: Pipeline(Of T).Steps
+- uid: Patterns.Pipeline`1.Steps*
+  name: Steps
+  href: api/Patterns.Pipeline-1.html#Patterns_Pipeline_1_Steps_
+  commentId: Overload:Patterns.Pipeline`1.Steps
+  isSpec: "True"
+  fullName: Patterns.Pipeline<T>.Steps
+  fullName.vb: Patterns.Pipeline(Of T).Steps
+  nameWithType: Pipeline<T>.Steps
+  nameWithType.vb: Pipeline(Of T).Steps
+- uid: Patterns.Pipeline`1.WithStep(Patterns.IStep{`0})
+  name: WithStep(IStep<T>)
+  href: api/Patterns.Pipeline-1.html#Patterns_Pipeline_1_WithStep_Patterns_IStep__0__
+  commentId: M:Patterns.Pipeline`1.WithStep(Patterns.IStep{`0})
+  name.vb: WithStep(IStep(Of T))
+  fullName: Patterns.Pipeline<T>.WithStep(Patterns.IStep<T>)
+  fullName.vb: Patterns.Pipeline(Of T).WithStep(Patterns.IStep(Of T))
+  nameWithType: Pipeline<T>.WithStep(IStep<T>)
+  nameWithType.vb: Pipeline(Of T).WithStep(IStep(Of T))
+- uid: Patterns.Pipeline`1.WithStep*
+  name: WithStep
+  href: api/Patterns.Pipeline-1.html#Patterns_Pipeline_1_WithStep_
+  commentId: Overload:Patterns.Pipeline`1.WithStep
+  isSpec: "True"
+  fullName: Patterns.Pipeline<T>.WithStep
+  fullName.vb: Patterns.Pipeline(Of T).WithStep
+  nameWithType: Pipeline<T>.WithStep
+  nameWithType.vb: Pipeline(Of T).WithStep
+- uid: Patterns.Result
+  name: Result
+  href: api/Patterns.Result.html
+  commentId: T:Patterns.Result
+  fullName: Patterns.Result
+  nameWithType: Result
+- uid: Patterns.Result.#ctor(System.Boolean,System.String)
+  name: Result(bool, string)
+  href: api/Patterns.Result.html#Patterns_Result__ctor_System_Boolean_System_String_
+  commentId: M:Patterns.Result.#ctor(System.Boolean,System.String)
+  name.vb: New(Boolean, String)
+  fullName: Patterns.Result.Result(bool, string)
+  fullName.vb: Patterns.Result.New(Boolean, String)
+  nameWithType: Result.Result(bool, string)
+  nameWithType.vb: Result.New(Boolean, String)
+- uid: Patterns.Result.#ctor*
+  name: Result
+  href: api/Patterns.Result.html#Patterns_Result__ctor_
+  commentId: Overload:Patterns.Result.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Patterns.Result.Result
+  fullName.vb: Patterns.Result.New
+  nameWithType: Result.Result
+  nameWithType.vb: Result.New
+- uid: Patterns.Result.ErrorMessage
+  name: ErrorMessage
+  href: api/Patterns.Result.html#Patterns_Result_ErrorMessage
+  commentId: P:Patterns.Result.ErrorMessage
+  fullName: Patterns.Result.ErrorMessage
+  nameWithType: Result.ErrorMessage
+- uid: Patterns.Result.ErrorMessage*
+  name: ErrorMessage
+  href: api/Patterns.Result.html#Patterns_Result_ErrorMessage_
+  commentId: Overload:Patterns.Result.ErrorMessage
+  isSpec: "True"
+  fullName: Patterns.Result.ErrorMessage
+  nameWithType: Result.ErrorMessage
+- uid: Patterns.Result.Failure(System.String)
+  name: Failure(string)
+  href: api/Patterns.Result.html#Patterns_Result_Failure_System_String_
+  commentId: M:Patterns.Result.Failure(System.String)
+  name.vb: Failure(String)
+  fullName: Patterns.Result.Failure(string)
+  fullName.vb: Patterns.Result.Failure(String)
+  nameWithType: Result.Failure(string)
+  nameWithType.vb: Result.Failure(String)
+- uid: Patterns.Result.Failure*
+  name: Failure
+  href: api/Patterns.Result.html#Patterns_Result_Failure_
+  commentId: Overload:Patterns.Result.Failure
+  isSpec: "True"
+  fullName: Patterns.Result.Failure
+  nameWithType: Result.Failure
+- uid: Patterns.Result.IsSuccess
+  name: IsSuccess
+  href: api/Patterns.Result.html#Patterns_Result_IsSuccess
+  commentId: P:Patterns.Result.IsSuccess
+  fullName: Patterns.Result.IsSuccess
+  nameWithType: Result.IsSuccess
+- uid: Patterns.Result.IsSuccess*
+  name: IsSuccess
+  href: api/Patterns.Result.html#Patterns_Result_IsSuccess_
+  commentId: Overload:Patterns.Result.IsSuccess
+  isSpec: "True"
+  fullName: Patterns.Result.IsSuccess
+  nameWithType: Result.IsSuccess
+- uid: Patterns.Result.Success
+  name: Success()
+  href: api/Patterns.Result.html#Patterns_Result_Success
+  commentId: M:Patterns.Result.Success
+  fullName: Patterns.Result.Success()
+  nameWithType: Result.Success()
+- uid: Patterns.Result.Success*
+  name: Success
+  href: api/Patterns.Result.html#Patterns_Result_Success_
+  commentId: Overload:Patterns.Result.Success
+  isSpec: "True"
+  fullName: Patterns.Result.Success
+  nameWithType: Result.Success
+- uid: Patterns.Result`1
+  name: Result<T>
+  href: api/Patterns.Result-1.html
+  commentId: T:Patterns.Result`1
+  name.vb: Result(Of T)
+  fullName: Patterns.Result<T>
+  fullName.vb: Patterns.Result(Of T)
+  nameWithType: Result<T>
+  nameWithType.vb: Result(Of T)
+- uid: Patterns.Result`1.Failure(System.String)
+  name: Failure(string)
+  href: api/Patterns.Result-1.html#Patterns_Result_1_Failure_System_String_
+  commentId: M:Patterns.Result`1.Failure(System.String)
+  name.vb: Failure(String)
+  fullName: Patterns.Result<T>.Failure(string)
+  fullName.vb: Patterns.Result(Of T).Failure(String)
+  nameWithType: Result<T>.Failure(string)
+  nameWithType.vb: Result(Of T).Failure(String)
+- uid: Patterns.Result`1.Failure*
+  name: Failure
+  href: api/Patterns.Result-1.html#Patterns_Result_1_Failure_
+  commentId: Overload:Patterns.Result`1.Failure
+  isSpec: "True"
+  fullName: Patterns.Result<T>.Failure
+  fullName.vb: Patterns.Result(Of T).Failure
+  nameWithType: Result<T>.Failure
+  nameWithType.vb: Result(Of T).Failure
+- uid: Patterns.Result`1.Success(`0)
+  name: Success(T)
+  href: api/Patterns.Result-1.html#Patterns_Result_1_Success__0_
+  commentId: M:Patterns.Result`1.Success(`0)
+  fullName: Patterns.Result<T>.Success(T)
+  fullName.vb: Patterns.Result(Of T).Success(T)
+  nameWithType: Result<T>.Success(T)
+  nameWithType.vb: Result(Of T).Success(T)
+- uid: Patterns.Result`1.Success*
+  name: Success
+  href: api/Patterns.Result-1.html#Patterns_Result_1_Success_
+  commentId: Overload:Patterns.Result`1.Success
+  isSpec: "True"
+  fullName: Patterns.Result<T>.Success
+  fullName.vb: Patterns.Result(Of T).Success
+  nameWithType: Result<T>.Success
+  nameWithType.vb: Result(Of T).Success
+- uid: Patterns.Result`1.Value
+  name: Value
+  href: api/Patterns.Result-1.html#Patterns_Result_1_Value
+  commentId: P:Patterns.Result`1.Value
+  fullName: Patterns.Result<T>.Value
+  fullName.vb: Patterns.Result(Of T).Value
+  nameWithType: Result<T>.Value
+  nameWithType.vb: Result(Of T).Value
+- uid: Patterns.Result`1.Value*
+  name: Value
+  href: api/Patterns.Result-1.html#Patterns_Result_1_Value_
+  commentId: Overload:Patterns.Result`1.Value
+  isSpec: "True"
+  fullName: Patterns.Result<T>.Value
+  fullName.vb: Patterns.Result(Of T).Value
+  nameWithType: Result<T>.Value
+  nameWithType.vb: Result(Of T).Value
+- uid: Patterns.Test
+  name: Patterns.Test
+  href: obj/api/Patterns.Test.html
+  commentId: N:Patterns.Test
+  fullName: Patterns.Test
+  nameWithType: Patterns.Test
+- uid: Patterns.Test.Result
+  name: Result
+  href: obj/api/Patterns.Test.Result.html
+  commentId: T:Patterns.Test.Result
+  fullName: Patterns.Test.Result
+  nameWithType: Result
+- uid: Patterns.Test.Result.GetUserNameById(System.Int32)
+  name: GetUserNameById(int)
+  href: obj/api/Patterns.Test.Result.html#Patterns_Test_Result_GetUserNameById_System_Int32_
+  commentId: M:Patterns.Test.Result.GetUserNameById(System.Int32)
+  name.vb: GetUserNameById(Integer)
+  fullName: Patterns.Test.Result.GetUserNameById(int)
+  fullName.vb: Patterns.Test.Result.GetUserNameById(Integer)
+  nameWithType: Result.GetUserNameById(int)
+  nameWithType.vb: Result.GetUserNameById(Integer)
+- uid: Patterns.Test.Result.GetUserNameById*
+  name: GetUserNameById
+  href: obj/api/Patterns.Test.Result.html#Patterns_Test_Result_GetUserNameById_
+  commentId: Overload:Patterns.Test.Result.GetUserNameById
+  isSpec: "True"
+  fullName: Patterns.Test.Result.GetUserNameById
+  nameWithType: Result.GetUserNameById
+- uid: Patterns.Test.Result.GetUserNameByIdTest
+  name: GetUserNameByIdTest()
+  href: obj/api/Patterns.Test.Result.html#Patterns_Test_Result_GetUserNameByIdTest
+  commentId: M:Patterns.Test.Result.GetUserNameByIdTest
+  fullName: Patterns.Test.Result.GetUserNameByIdTest()
+  nameWithType: Result.GetUserNameByIdTest()
+- uid: Patterns.Test.Result.GetUserNameByIdTest*
+  name: GetUserNameByIdTest
+  href: obj/api/Patterns.Test.Result.html#Patterns_Test_Result_GetUserNameByIdTest_
+  commentId: Overload:Patterns.Test.Result.GetUserNameByIdTest
+  isSpec: "True"
+  fullName: Patterns.Test.Result.GetUserNameByIdTest
+  nameWithType: Result.GetUserNameByIdTest
+- uid: Patterns.Test.Result.GetUserNameByIdTest_InvalidId
+  name: GetUserNameByIdTest_InvalidId()
+  href: obj/api/Patterns.Test.Result.html#Patterns_Test_Result_GetUserNameByIdTest_InvalidId
+  commentId: M:Patterns.Test.Result.GetUserNameByIdTest_InvalidId
+  fullName: Patterns.Test.Result.GetUserNameByIdTest_InvalidId()
+  nameWithType: Result.GetUserNameByIdTest_InvalidId()
+- uid: Patterns.Test.Result.GetUserNameByIdTest_InvalidId*
+  name: GetUserNameByIdTest_InvalidId
+  href: obj/api/Patterns.Test.Result.html#Patterns_Test_Result_GetUserNameByIdTest_InvalidId_
+  commentId: Overload:Patterns.Test.Result.GetUserNameByIdTest_InvalidId
+  isSpec: "True"
+  fullName: Patterns.Test.Result.GetUserNameByIdTest_InvalidId
+  nameWithType: Result.GetUserNameByIdTest_InvalidId
+- uid: Patterns.Tests
+  name: Patterns.Tests
+  href: obj/api/Patterns.Tests.html
+  commentId: N:Patterns.Tests
+  fullName: Patterns.Tests
+  nameWithType: Patterns.Tests
+- uid: Patterns.Tests.PipelineTest
+  name: PipelineTest
+  href: obj/api/Patterns.Tests.PipelineTest.html
+  commentId: T:Patterns.Tests.PipelineTest
+  fullName: Patterns.Tests.PipelineTest
+  nameWithType: PipelineTest
+- uid: Patterns.Tests.PipelineTest.Name_PropertyGetSet
+  name: Name_PropertyGetSet()
+  href: obj/api/Patterns.Tests.PipelineTest.html#Patterns_Tests_PipelineTest_Name_PropertyGetSet
+  commentId: M:Patterns.Tests.PipelineTest.Name_PropertyGetSet
+  fullName: Patterns.Tests.PipelineTest.Name_PropertyGetSet()
+  nameWithType: PipelineTest.Name_PropertyGetSet()
+- uid: Patterns.Tests.PipelineTest.Name_PropertyGetSet*
+  name: Name_PropertyGetSet
+  href: obj/api/Patterns.Tests.PipelineTest.html#Patterns_Tests_PipelineTest_Name_PropertyGetSet_
+  commentId: Overload:Patterns.Tests.PipelineTest.Name_PropertyGetSet
+  isSpec: "True"
+  fullName: Patterns.Tests.PipelineTest.Name_PropertyGetSet
+  nameWithType: PipelineTest.Name_PropertyGetSet
+- uid: Patterns.Tests.PipelineTest.Setup
+  name: Setup()
+  href: obj/api/Patterns.Tests.PipelineTest.html#Patterns_Tests_PipelineTest_Setup
+  commentId: M:Patterns.Tests.PipelineTest.Setup
+  fullName: Patterns.Tests.PipelineTest.Setup()
+  nameWithType: PipelineTest.Setup()
+- uid: Patterns.Tests.PipelineTest.Setup*
+  name: Setup
+  href: obj/api/Patterns.Tests.PipelineTest.html#Patterns_Tests_PipelineTest_Setup_
+  commentId: Overload:Patterns.Tests.PipelineTest.Setup
+  isSpec: "True"
+  fullName: Patterns.Tests.PipelineTest.Setup
+  nameWithType: PipelineTest.Setup
+- uid: Patterns.Tests.PipelineTest.StartAsync_ExecutesAllStepsInOrderAsync
+  name: StartAsync_ExecutesAllStepsInOrderAsync()
+  href: obj/api/Patterns.Tests.PipelineTest.html#Patterns_Tests_PipelineTest_StartAsync_ExecutesAllStepsInOrderAsync
+  commentId: M:Patterns.Tests.PipelineTest.StartAsync_ExecutesAllStepsInOrderAsync
+  fullName: Patterns.Tests.PipelineTest.StartAsync_ExecutesAllStepsInOrderAsync()
+  nameWithType: PipelineTest.StartAsync_ExecutesAllStepsInOrderAsync()
+- uid: Patterns.Tests.PipelineTest.StartAsync_ExecutesAllStepsInOrderAsync*
+  name: StartAsync_ExecutesAllStepsInOrderAsync
+  href: obj/api/Patterns.Tests.PipelineTest.html#Patterns_Tests_PipelineTest_StartAsync_ExecutesAllStepsInOrderAsync_
+  commentId: Overload:Patterns.Tests.PipelineTest.StartAsync_ExecutesAllStepsInOrderAsync
+  isSpec: "True"
+  fullName: Patterns.Tests.PipelineTest.StartAsync_ExecutesAllStepsInOrderAsync
+  nameWithType: PipelineTest.StartAsync_ExecutesAllStepsInOrderAsync
+- uid: Patterns.Tests.PipelineTest.StartAsync_ReturnsInitialData_WhenNoStepsAreAddedAsync
+  name: StartAsync_ReturnsInitialData_WhenNoStepsAreAddedAsync()
+  href: obj/api/Patterns.Tests.PipelineTest.html#Patterns_Tests_PipelineTest_StartAsync_ReturnsInitialData_WhenNoStepsAreAddedAsync
+  commentId: M:Patterns.Tests.PipelineTest.StartAsync_ReturnsInitialData_WhenNoStepsAreAddedAsync
+  fullName: Patterns.Tests.PipelineTest.StartAsync_ReturnsInitialData_WhenNoStepsAreAddedAsync()
+  nameWithType: PipelineTest.StartAsync_ReturnsInitialData_WhenNoStepsAreAddedAsync()
+- uid: Patterns.Tests.PipelineTest.StartAsync_ReturnsInitialData_WhenNoStepsAreAddedAsync*
+  name: StartAsync_ReturnsInitialData_WhenNoStepsAreAddedAsync
+  href: obj/api/Patterns.Tests.PipelineTest.html#Patterns_Tests_PipelineTest_StartAsync_ReturnsInitialData_WhenNoStepsAreAddedAsync_
+  commentId: Overload:Patterns.Tests.PipelineTest.StartAsync_ReturnsInitialData_WhenNoStepsAreAddedAsync
+  isSpec: "True"
+  fullName: Patterns.Tests.PipelineTest.StartAsync_ReturnsInitialData_WhenNoStepsAreAddedAsync
+  nameWithType: PipelineTest.StartAsync_ReturnsInitialData_WhenNoStepsAreAddedAsync
+- uid: Patterns.Tests.PipelineTest.Steps_PropertyReturnsReadOnlyCollection
+  name: Steps_PropertyReturnsReadOnlyCollection()
+  href: obj/api/Patterns.Tests.PipelineTest.html#Patterns_Tests_PipelineTest_Steps_PropertyReturnsReadOnlyCollection
+  commentId: M:Patterns.Tests.PipelineTest.Steps_PropertyReturnsReadOnlyCollection
+  fullName: Patterns.Tests.PipelineTest.Steps_PropertyReturnsReadOnlyCollection()
+  nameWithType: PipelineTest.Steps_PropertyReturnsReadOnlyCollection()
+- uid: Patterns.Tests.PipelineTest.Steps_PropertyReturnsReadOnlyCollection*
+  name: Steps_PropertyReturnsReadOnlyCollection
+  href: obj/api/Patterns.Tests.PipelineTest.html#Patterns_Tests_PipelineTest_Steps_PropertyReturnsReadOnlyCollection_
+  commentId: Overload:Patterns.Tests.PipelineTest.Steps_PropertyReturnsReadOnlyCollection
+  isSpec: "True"
+  fullName: Patterns.Tests.PipelineTest.Steps_PropertyReturnsReadOnlyCollection
+  nameWithType: PipelineTest.Steps_PropertyReturnsReadOnlyCollection
+- uid: Patterns.Tests.PipelineTest.WithStep_AddsStepToPipeline
+  name: WithStep_AddsStepToPipeline()
+  href: obj/api/Patterns.Tests.PipelineTest.html#Patterns_Tests_PipelineTest_WithStep_AddsStepToPipeline
+  commentId: M:Patterns.Tests.PipelineTest.WithStep_AddsStepToPipeline
+  fullName: Patterns.Tests.PipelineTest.WithStep_AddsStepToPipeline()
+  nameWithType: PipelineTest.WithStep_AddsStepToPipeline()
+- uid: Patterns.Tests.PipelineTest.WithStep_AddsStepToPipeline*
+  name: WithStep_AddsStepToPipeline
+  href: obj/api/Patterns.Tests.PipelineTest.html#Patterns_Tests_PipelineTest_WithStep_AddsStepToPipeline_
+  commentId: Overload:Patterns.Tests.PipelineTest.WithStep_AddsStepToPipeline
+  isSpec: "True"
+  fullName: Patterns.Tests.PipelineTest.WithStep_AddsStepToPipeline
+  nameWithType: PipelineTest.WithStep_AddsStepToPipeline
+- uid: Patterns.Tests.PipelineTest.WithStep_ThrowsArgumentNullException_WhenStepIsNull
+  name: WithStep_ThrowsArgumentNullException_WhenStepIsNull()
+  href: obj/api/Patterns.Tests.PipelineTest.html#Patterns_Tests_PipelineTest_WithStep_ThrowsArgumentNullException_WhenStepIsNull
+  commentId: M:Patterns.Tests.PipelineTest.WithStep_ThrowsArgumentNullException_WhenStepIsNull
+  fullName: Patterns.Tests.PipelineTest.WithStep_ThrowsArgumentNullException_WhenStepIsNull()
+  nameWithType: PipelineTest.WithStep_ThrowsArgumentNullException_WhenStepIsNull()
+- uid: Patterns.Tests.PipelineTest.WithStep_ThrowsArgumentNullException_WhenStepIsNull*
+  name: WithStep_ThrowsArgumentNullException_WhenStepIsNull
+  href: obj/api/Patterns.Tests.PipelineTest.html#Patterns_Tests_PipelineTest_WithStep_ThrowsArgumentNullException_WhenStepIsNull_
+  commentId: Overload:Patterns.Tests.PipelineTest.WithStep_ThrowsArgumentNullException_WhenStepIsNull
+  isSpec: "True"
+  fullName: Patterns.Tests.PipelineTest.WithStep_ThrowsArgumentNullException_WhenStepIsNull
+  nameWithType: PipelineTest.WithStep_ThrowsArgumentNullException_WhenStepIsNull
+- uid: Services
+  name: Services
+  href: api/Services.html
+  commentId: N:Services
+  fullName: Services
+  nameWithType: Services
+- uid: Services.CsvService
+  name: CsvService
+  href: api/Services.CsvService.html
+  commentId: T:Services.CsvService
+  fullName: Services.CsvService
+  nameWithType: CsvService
+- uid: Services.CsvService.#ctor(Microsoft.Extensions.Logging.ILogger{Services.CsvService})
+  name: CsvService(ILogger<CsvService>)
+  href: api/Services.CsvService.html#Services_CsvService__ctor_Microsoft_Extensions_Logging_ILogger_Services_CsvService__
+  commentId: M:Services.CsvService.#ctor(Microsoft.Extensions.Logging.ILogger{Services.CsvService})
+  name.vb: New(ILogger(Of CsvService))
+  fullName: Services.CsvService.CsvService(Microsoft.Extensions.Logging.ILogger<Services.CsvService>)
+  fullName.vb: Services.CsvService.New(Microsoft.Extensions.Logging.ILogger(Of Services.CsvService))
+  nameWithType: CsvService.CsvService(ILogger<CsvService>)
+  nameWithType.vb: CsvService.New(ILogger(Of CsvService))
+- uid: Services.CsvService.#ctor*
+  name: CsvService
+  href: api/Services.CsvService.html#Services_CsvService__ctor_
+  commentId: Overload:Services.CsvService.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Services.CsvService.CsvService
+  fullName.vb: Services.CsvService.New
+  nameWithType: CsvService.CsvService
+  nameWithType.vb: CsvService.New
+- uid: Services.CsvService.Read*
+  name: Read
+  href: api/Services.CsvService.html#Services_CsvService_Read_
+  commentId: Overload:Services.CsvService.Read
+  isSpec: "True"
+  fullName: Services.CsvService.Read
+  nameWithType: CsvService.Read
+- uid: Services.CsvService.Read``1(System.String,System.String,CsvHelper.Configuration.ClassMap{``0},System.String)
+  name: Read<T>(string, string, ClassMap<T>, string)
+  href: api/Services.CsvService.html#Services_CsvService_Read__1_System_String_System_String_CsvHelper_Configuration_ClassMap___0__System_String_
+  commentId: M:Services.CsvService.Read``1(System.String,System.String,CsvHelper.Configuration.ClassMap{``0},System.String)
+  name.vb: Read(Of T)(String, String, ClassMap(Of T), String)
+  fullName: Services.CsvService.Read<T>(string, string, CsvHelper.Configuration.ClassMap<T>, string)
+  fullName.vb: Services.CsvService.Read(Of T)(String, String, CsvHelper.Configuration.ClassMap(Of T), String)
+  nameWithType: CsvService.Read<T>(string, string, ClassMap<T>, string)
+  nameWithType.vb: CsvService.Read(Of T)(String, String, ClassMap(Of T), String)
+- uid: Services.CsvService.WriteAsync*
+  name: WriteAsync
+  href: api/Services.CsvService.html#Services_CsvService_WriteAsync_
+  commentId: Overload:Services.CsvService.WriteAsync
+  isSpec: "True"
+  fullName: Services.CsvService.WriteAsync
+  nameWithType: CsvService.WriteAsync
+- uid: Services.CsvService.WriteAsync``1(System.Collections.Generic.IList{``0},System.String,System.String,System.String)
+  name: WriteAsync<T>(IList<T>, string, string, string)
+  href: api/Services.CsvService.html#Services_CsvService_WriteAsync__1_System_Collections_Generic_IList___0__System_String_System_String_System_String_
+  commentId: M:Services.CsvService.WriteAsync``1(System.Collections.Generic.IList{``0},System.String,System.String,System.String)
+  name.vb: WriteAsync(Of T)(IList(Of T), String, String, String)
+  fullName: Services.CsvService.WriteAsync<T>(System.Collections.Generic.IList<T>, string, string, string)
+  fullName.vb: Services.CsvService.WriteAsync(Of T)(System.Collections.Generic.IList(Of T), String, String, String)
+  nameWithType: CsvService.WriteAsync<T>(IList<T>, string, string, string)
+  nameWithType.vb: CsvService.WriteAsync(Of T)(IList(Of T), String, String, String)
+- uid: Services.EmailService
+  name: EmailService
+  href: api/Services.EmailService.html
+  commentId: T:Services.EmailService
+  fullName: Services.EmailService
+  nameWithType: EmailService
+- uid: Services.EmailService.#ctor(Microsoft.Extensions.Logging.ILogger{Services.EmailService},Microsoft.Extensions.Configuration.IConfiguration)
+  name: EmailService(ILogger<EmailService>, IConfiguration)
+  href: api/Services.EmailService.html#Services_EmailService__ctor_Microsoft_Extensions_Logging_ILogger_Services_EmailService__Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:Services.EmailService.#ctor(Microsoft.Extensions.Logging.ILogger{Services.EmailService},Microsoft.Extensions.Configuration.IConfiguration)
+  name.vb: New(ILogger(Of EmailService), IConfiguration)
+  fullName: Services.EmailService.EmailService(Microsoft.Extensions.Logging.ILogger<Services.EmailService>, Microsoft.Extensions.Configuration.IConfiguration)
+  fullName.vb: Services.EmailService.New(Microsoft.Extensions.Logging.ILogger(Of Services.EmailService), Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: EmailService.EmailService(ILogger<EmailService>, IConfiguration)
+  nameWithType.vb: EmailService.New(ILogger(Of EmailService), IConfiguration)
+- uid: Services.EmailService.#ctor*
+  name: EmailService
+  href: api/Services.EmailService.html#Services_EmailService__ctor_
+  commentId: Overload:Services.EmailService.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Services.EmailService.EmailService
+  fullName.vb: Services.EmailService.New
+  nameWithType: EmailService.EmailService
+  nameWithType.vb: EmailService.New
+- uid: Services.EmailService.SendMessageAsync(MimeKit.MimeMessage)
+  name: SendMessageAsync(MimeMessage)
+  href: api/Services.EmailService.html#Services_EmailService_SendMessageAsync_MimeKit_MimeMessage_
+  commentId: M:Services.EmailService.SendMessageAsync(MimeKit.MimeMessage)
+  fullName: Services.EmailService.SendMessageAsync(MimeKit.MimeMessage)
+  nameWithType: EmailService.SendMessageAsync(MimeMessage)
+- uid: Services.EmailService.SendMessageAsync*
+  name: SendMessageAsync
+  href: api/Services.EmailService.html#Services_EmailService_SendMessageAsync_
+  commentId: Overload:Services.EmailService.SendMessageAsync
+  isSpec: "True"
+  fullName: Services.EmailService.SendMessageAsync
+  nameWithType: EmailService.SendMessageAsync
+- uid: Services.ICsvService
+  name: ICsvService
+  href: api/Services.ICsvService.html
+  commentId: T:Services.ICsvService
+  fullName: Services.ICsvService
+  nameWithType: ICsvService
+- uid: Services.ICsvService.Read*
+  name: Read
+  href: api/Services.ICsvService.html#Services_ICsvService_Read_
+  commentId: Overload:Services.ICsvService.Read
+  isSpec: "True"
+  fullName: Services.ICsvService.Read
+  nameWithType: ICsvService.Read
+- uid: Services.ICsvService.Read``1(System.String,System.String,CsvHelper.Configuration.ClassMap{``0},System.String)
+  name: Read<T>(string, string, ClassMap<T>, string)
+  href: api/Services.ICsvService.html#Services_ICsvService_Read__1_System_String_System_String_CsvHelper_Configuration_ClassMap___0__System_String_
+  commentId: M:Services.ICsvService.Read``1(System.String,System.String,CsvHelper.Configuration.ClassMap{``0},System.String)
+  name.vb: Read(Of T)(String, String, ClassMap(Of T), String)
+  fullName: Services.ICsvService.Read<T>(string, string, CsvHelper.Configuration.ClassMap<T>, string)
+  fullName.vb: Services.ICsvService.Read(Of T)(String, String, CsvHelper.Configuration.ClassMap(Of T), String)
+  nameWithType: ICsvService.Read<T>(string, string, ClassMap<T>, string)
+  nameWithType.vb: ICsvService.Read(Of T)(String, String, ClassMap(Of T), String)
+- uid: Services.ICsvService.WriteAsync*
+  name: WriteAsync
+  href: api/Services.ICsvService.html#Services_ICsvService_WriteAsync_
+  commentId: Overload:Services.ICsvService.WriteAsync
+  isSpec: "True"
+  fullName: Services.ICsvService.WriteAsync
+  nameWithType: ICsvService.WriteAsync
+- uid: Services.ICsvService.WriteAsync``1(System.Collections.Generic.IList{``0},System.String,System.String,System.String)
+  name: WriteAsync<T>(IList<T>, string, string, string)
+  href: api/Services.ICsvService.html#Services_ICsvService_WriteAsync__1_System_Collections_Generic_IList___0__System_String_System_String_System_String_
+  commentId: M:Services.ICsvService.WriteAsync``1(System.Collections.Generic.IList{``0},System.String,System.String,System.String)
+  name.vb: WriteAsync(Of T)(IList(Of T), String, String, String)
+  fullName: Services.ICsvService.WriteAsync<T>(System.Collections.Generic.IList<T>, string, string, string)
+  fullName.vb: Services.ICsvService.WriteAsync(Of T)(System.Collections.Generic.IList(Of T), String, String, String)
+  nameWithType: ICsvService.WriteAsync<T>(IList<T>, string, string, string)
+  nameWithType.vb: ICsvService.WriteAsync(Of T)(IList(Of T), String, String, String)
+- uid: Services.IEmailService
+  name: IEmailService
+  href: api/Services.IEmailService.html
+  commentId: T:Services.IEmailService
+  fullName: Services.IEmailService
+  nameWithType: IEmailService
+- uid: Services.IEmailService.SendMessageAsync(MimeKit.MimeMessage)
+  name: SendMessageAsync(MimeMessage)
+  href: api/Services.IEmailService.html#Services_IEmailService_SendMessageAsync_MimeKit_MimeMessage_
+  commentId: M:Services.IEmailService.SendMessageAsync(MimeKit.MimeMessage)
+  fullName: Services.IEmailService.SendMessageAsync(MimeKit.MimeMessage)
+  nameWithType: IEmailService.SendMessageAsync(MimeMessage)
+- uid: Services.IEmailService.SendMessageAsync*
+  name: SendMessageAsync
+  href: api/Services.IEmailService.html#Services_IEmailService_SendMessageAsync_
+  commentId: Overload:Services.IEmailService.SendMessageAsync
+  isSpec: "True"
+  fullName: Services.IEmailService.SendMessageAsync
+  nameWithType: IEmailService.SendMessageAsync
+- uid: Services.IWebDavService
+  name: IWebDavService
+  href: api/Services.IWebDavService.html
+  commentId: T:Services.IWebDavService
+  fullName: Services.IWebDavService
+  nameWithType: IWebDavService
+- uid: Services.IWebDavService.DeleteFileAsync(System.String)
+  name: DeleteFileAsync(string)
+  href: api/Services.IWebDavService.html#Services_IWebDavService_DeleteFileAsync_System_String_
+  commentId: M:Services.IWebDavService.DeleteFileAsync(System.String)
+  name.vb: DeleteFileAsync(String)
+  fullName: Services.IWebDavService.DeleteFileAsync(string)
+  fullName.vb: Services.IWebDavService.DeleteFileAsync(String)
+  nameWithType: IWebDavService.DeleteFileAsync(string)
+  nameWithType.vb: IWebDavService.DeleteFileAsync(String)
+- uid: Services.IWebDavService.DeleteFileAsync*
+  name: DeleteFileAsync
+  href: api/Services.IWebDavService.html#Services_IWebDavService_DeleteFileAsync_
+  commentId: Overload:Services.IWebDavService.DeleteFileAsync
+  isSpec: "True"
+  fullName: Services.IWebDavService.DeleteFileAsync
+  nameWithType: IWebDavService.DeleteFileAsync
+- uid: Services.IWebDavService.DownloadFileAsync(System.String,System.String)
+  name: DownloadFileAsync(string, string)
+  href: api/Services.IWebDavService.html#Services_IWebDavService_DownloadFileAsync_System_String_System_String_
+  commentId: M:Services.IWebDavService.DownloadFileAsync(System.String,System.String)
+  name.vb: DownloadFileAsync(String, String)
+  fullName: Services.IWebDavService.DownloadFileAsync(string, string)
+  fullName.vb: Services.IWebDavService.DownloadFileAsync(String, String)
+  nameWithType: IWebDavService.DownloadFileAsync(string, string)
+  nameWithType.vb: IWebDavService.DownloadFileAsync(String, String)
+- uid: Services.IWebDavService.DownloadFileAsync*
+  name: DownloadFileAsync
+  href: api/Services.IWebDavService.html#Services_IWebDavService_DownloadFileAsync_
+  commentId: Overload:Services.IWebDavService.DownloadFileAsync
+  isSpec: "True"
+  fullName: Services.IWebDavService.DownloadFileAsync
+  nameWithType: IWebDavService.DownloadFileAsync
+- uid: Services.IWebDavService.GetParams
+  name: GetParams()
+  href: api/Services.IWebDavService.html#Services_IWebDavService_GetParams
+  commentId: M:Services.IWebDavService.GetParams
+  fullName: Services.IWebDavService.GetParams()
+  nameWithType: IWebDavService.GetParams()
+- uid: Services.IWebDavService.GetParams*
+  name: GetParams
+  href: api/Services.IWebDavService.html#Services_IWebDavService_GetParams_
+  commentId: Overload:Services.IWebDavService.GetParams
+  isSpec: "True"
+  fullName: Services.IWebDavService.GetParams
+  nameWithType: IWebDavService.GetParams
+- uid: Services.IWebDavService.UploadFileAsync(System.String,System.String)
+  name: UploadFileAsync(string, string)
+  href: api/Services.IWebDavService.html#Services_IWebDavService_UploadFileAsync_System_String_System_String_
+  commentId: M:Services.IWebDavService.UploadFileAsync(System.String,System.String)
+  name.vb: UploadFileAsync(String, String)
+  fullName: Services.IWebDavService.UploadFileAsync(string, string)
+  fullName.vb: Services.IWebDavService.UploadFileAsync(String, String)
+  nameWithType: IWebDavService.UploadFileAsync(string, string)
+  nameWithType.vb: IWebDavService.UploadFileAsync(String, String)
+- uid: Services.IWebDavService.UploadFileAsync*
+  name: UploadFileAsync
+  href: api/Services.IWebDavService.html#Services_IWebDavService_UploadFileAsync_
+  commentId: Overload:Services.IWebDavService.UploadFileAsync
+  isSpec: "True"
+  fullName: Services.IWebDavService.UploadFileAsync
+  nameWithType: IWebDavService.UploadFileAsync
+- uid: Services.Tests
+  name: Services.Tests
+  href: obj/api/Services.Tests.html
+  commentId: N:Services.Tests
+  fullName: Services.Tests
+  nameWithType: Services.Tests
+- uid: Services.Tests.CsvServiceTest
+  name: CsvServiceTest
+  href: obj/api/Services.Tests.CsvServiceTest.html
+  commentId: T:Services.Tests.CsvServiceTest
+  fullName: Services.Tests.CsvServiceTest
+  nameWithType: CsvServiceTest
+- uid: Services.Tests.CsvServiceTest.SetUp
+  name: SetUp()
+  href: obj/api/Services.Tests.CsvServiceTest.html#Services_Tests_CsvServiceTest_SetUp
+  commentId: M:Services.Tests.CsvServiceTest.SetUp
+  fullName: Services.Tests.CsvServiceTest.SetUp()
+  nameWithType: CsvServiceTest.SetUp()
+- uid: Services.Tests.CsvServiceTest.SetUp*
+  name: SetUp
+  href: obj/api/Services.Tests.CsvServiceTest.html#Services_Tests_CsvServiceTest_SetUp_
+  commentId: Overload:Services.Tests.CsvServiceTest.SetUp
+  isSpec: "True"
+  fullName: Services.Tests.CsvServiceTest.SetUp
+  nameWithType: CsvServiceTest.SetUp
+- uid: Services.Tests.CsvServiceTest.Write_SendsDataToFileAsync
+  name: Write_SendsDataToFileAsync()
+  href: obj/api/Services.Tests.CsvServiceTest.html#Services_Tests_CsvServiceTest_Write_SendsDataToFileAsync
+  commentId: M:Services.Tests.CsvServiceTest.Write_SendsDataToFileAsync
+  fullName: Services.Tests.CsvServiceTest.Write_SendsDataToFileAsync()
+  nameWithType: CsvServiceTest.Write_SendsDataToFileAsync()
+- uid: Services.Tests.CsvServiceTest.Write_SendsDataToFileAsync*
+  name: Write_SendsDataToFileAsync
+  href: obj/api/Services.Tests.CsvServiceTest.html#Services_Tests_CsvServiceTest_Write_SendsDataToFileAsync_
+  commentId: Overload:Services.Tests.CsvServiceTest.Write_SendsDataToFileAsync
+  isSpec: "True"
+  fullName: Services.Tests.CsvServiceTest.Write_SendsDataToFileAsync
+  nameWithType: CsvServiceTest.Write_SendsDataToFileAsync
+- uid: Services.Tests.CsvServiceTest.Write_ThrowsException_OnEmptyListAsync
+  name: Write_ThrowsException_OnEmptyListAsync()
+  href: obj/api/Services.Tests.CsvServiceTest.html#Services_Tests_CsvServiceTest_Write_ThrowsException_OnEmptyListAsync
+  commentId: M:Services.Tests.CsvServiceTest.Write_ThrowsException_OnEmptyListAsync
+  fullName: Services.Tests.CsvServiceTest.Write_ThrowsException_OnEmptyListAsync()
+  nameWithType: CsvServiceTest.Write_ThrowsException_OnEmptyListAsync()
+- uid: Services.Tests.CsvServiceTest.Write_ThrowsException_OnEmptyListAsync*
+  name: Write_ThrowsException_OnEmptyListAsync
+  href: obj/api/Services.Tests.CsvServiceTest.html#Services_Tests_CsvServiceTest_Write_ThrowsException_OnEmptyListAsync_
+  commentId: Overload:Services.Tests.CsvServiceTest.Write_ThrowsException_OnEmptyListAsync
+  isSpec: "True"
+  fullName: Services.Tests.CsvServiceTest.Write_ThrowsException_OnEmptyListAsync
+  nameWithType: CsvServiceTest.Write_ThrowsException_OnEmptyListAsync
+- uid: Services.Tests.CsvServiceTest.Write_ThrowsException_OnEmptyTargetAsync
+  name: Write_ThrowsException_OnEmptyTargetAsync()
+  href: obj/api/Services.Tests.CsvServiceTest.html#Services_Tests_CsvServiceTest_Write_ThrowsException_OnEmptyTargetAsync
+  commentId: M:Services.Tests.CsvServiceTest.Write_ThrowsException_OnEmptyTargetAsync
+  fullName: Services.Tests.CsvServiceTest.Write_ThrowsException_OnEmptyTargetAsync()
+  nameWithType: CsvServiceTest.Write_ThrowsException_OnEmptyTargetAsync()
+- uid: Services.Tests.CsvServiceTest.Write_ThrowsException_OnEmptyTargetAsync*
+  name: Write_ThrowsException_OnEmptyTargetAsync
+  href: obj/api/Services.Tests.CsvServiceTest.html#Services_Tests_CsvServiceTest_Write_ThrowsException_OnEmptyTargetAsync_
+  commentId: Overload:Services.Tests.CsvServiceTest.Write_ThrowsException_OnEmptyTargetAsync
+  isSpec: "True"
+  fullName: Services.Tests.CsvServiceTest.Write_ThrowsException_OnEmptyTargetAsync
+  nameWithType: CsvServiceTest.Write_ThrowsException_OnEmptyTargetAsync
+- uid: Services.Tests.CsvServiceTest.Write_ThrowsException_OnNullListAsync
+  name: Write_ThrowsException_OnNullListAsync()
+  href: obj/api/Services.Tests.CsvServiceTest.html#Services_Tests_CsvServiceTest_Write_ThrowsException_OnNullListAsync
+  commentId: M:Services.Tests.CsvServiceTest.Write_ThrowsException_OnNullListAsync
+  fullName: Services.Tests.CsvServiceTest.Write_ThrowsException_OnNullListAsync()
+  nameWithType: CsvServiceTest.Write_ThrowsException_OnNullListAsync()
+- uid: Services.Tests.CsvServiceTest.Write_ThrowsException_OnNullListAsync*
+  name: Write_ThrowsException_OnNullListAsync
+  href: obj/api/Services.Tests.CsvServiceTest.html#Services_Tests_CsvServiceTest_Write_ThrowsException_OnNullListAsync_
+  commentId: Overload:Services.Tests.CsvServiceTest.Write_ThrowsException_OnNullListAsync
+  isSpec: "True"
+  fullName: Services.Tests.CsvServiceTest.Write_ThrowsException_OnNullListAsync
+  nameWithType: CsvServiceTest.Write_ThrowsException_OnNullListAsync
+- uid: Services.Tests.CsvServiceTest.Write_ThrowsException_OnNullTargetAsync
+  name: Write_ThrowsException_OnNullTargetAsync()
+  href: obj/api/Services.Tests.CsvServiceTest.html#Services_Tests_CsvServiceTest_Write_ThrowsException_OnNullTargetAsync
+  commentId: M:Services.Tests.CsvServiceTest.Write_ThrowsException_OnNullTargetAsync
+  fullName: Services.Tests.CsvServiceTest.Write_ThrowsException_OnNullTargetAsync()
+  nameWithType: CsvServiceTest.Write_ThrowsException_OnNullTargetAsync()
+- uid: Services.Tests.CsvServiceTest.Write_ThrowsException_OnNullTargetAsync*
+  name: Write_ThrowsException_OnNullTargetAsync
+  href: obj/api/Services.Tests.CsvServiceTest.html#Services_Tests_CsvServiceTest_Write_ThrowsException_OnNullTargetAsync_
+  commentId: Overload:Services.Tests.CsvServiceTest.Write_ThrowsException_OnNullTargetAsync
+  isSpec: "True"
+  fullName: Services.Tests.CsvServiceTest.Write_ThrowsException_OnNullTargetAsync
+  nameWithType: CsvServiceTest.Write_ThrowsException_OnNullTargetAsync
+- uid: Services.Tests.Foo
+  name: Foo
+  href: obj/api/Services.Tests.Foo.html
+  commentId: T:Services.Tests.Foo
+  fullName: Services.Tests.Foo
+  nameWithType: Foo
+- uid: Services.Tests.Foo.Id
+  name: Id
+  href: obj/api/Services.Tests.Foo.html#Services_Tests_Foo_Id
+  commentId: P:Services.Tests.Foo.Id
+  fullName: Services.Tests.Foo.Id
+  nameWithType: Foo.Id
+- uid: Services.Tests.Foo.Id*
+  name: Id
+  href: obj/api/Services.Tests.Foo.html#Services_Tests_Foo_Id_
+  commentId: Overload:Services.Tests.Foo.Id
+  isSpec: "True"
+  fullName: Services.Tests.Foo.Id
+  nameWithType: Foo.Id
+- uid: Services.Tests.Foo.Name
+  name: Name
+  href: obj/api/Services.Tests.Foo.html#Services_Tests_Foo_Name
+  commentId: P:Services.Tests.Foo.Name
+  fullName: Services.Tests.Foo.Name
+  nameWithType: Foo.Name
+- uid: Services.Tests.Foo.Name*
+  name: Name
+  href: obj/api/Services.Tests.Foo.html#Services_Tests_Foo_Name_
+  commentId: Overload:Services.Tests.Foo.Name
+  isSpec: "True"
+  fullName: Services.Tests.Foo.Name
+  nameWithType: Foo.Name
+- uid: Services.WebDavService
+  name: WebDavService
+  href: api/Services.WebDavService.html
+  commentId: T:Services.WebDavService
+  fullName: Services.WebDavService
+  nameWithType: WebDavService
+- uid: Services.WebDavService.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{Services.WebDavService})
+  name: WebDavService(IConfiguration, ILogger<WebDavService>)
+  href: api/Services.WebDavService.html#Services_WebDavService__ctor_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_Logging_ILogger_Services_WebDavService__
+  commentId: M:Services.WebDavService.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{Services.WebDavService})
+  name.vb: New(IConfiguration, ILogger(Of WebDavService))
+  fullName: Services.WebDavService.WebDavService(Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.Logging.ILogger<Services.WebDavService>)
+  fullName.vb: Services.WebDavService.New(Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.Logging.ILogger(Of Services.WebDavService))
+  nameWithType: WebDavService.WebDavService(IConfiguration, ILogger<WebDavService>)
+  nameWithType.vb: WebDavService.New(IConfiguration, ILogger(Of WebDavService))
+- uid: Services.WebDavService.#ctor*
+  name: WebDavService
+  href: api/Services.WebDavService.html#Services_WebDavService__ctor_
+  commentId: Overload:Services.WebDavService.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Services.WebDavService.WebDavService
+  fullName.vb: Services.WebDavService.New
+  nameWithType: WebDavService.WebDavService
+  nameWithType.vb: WebDavService.New
+- uid: Services.WebDavService.DeleteFileAsync(System.String)
+  name: DeleteFileAsync(string)
+  href: api/Services.WebDavService.html#Services_WebDavService_DeleteFileAsync_System_String_
+  commentId: M:Services.WebDavService.DeleteFileAsync(System.String)
+  name.vb: DeleteFileAsync(String)
+  fullName: Services.WebDavService.DeleteFileAsync(string)
+  fullName.vb: Services.WebDavService.DeleteFileAsync(String)
+  nameWithType: WebDavService.DeleteFileAsync(string)
+  nameWithType.vb: WebDavService.DeleteFileAsync(String)
+- uid: Services.WebDavService.DeleteFileAsync*
+  name: DeleteFileAsync
+  href: api/Services.WebDavService.html#Services_WebDavService_DeleteFileAsync_
+  commentId: Overload:Services.WebDavService.DeleteFileAsync
+  isSpec: "True"
+  fullName: Services.WebDavService.DeleteFileAsync
+  nameWithType: WebDavService.DeleteFileAsync
+- uid: Services.WebDavService.DownloadFileAsync(System.String,System.String)
+  name: DownloadFileAsync(string, string)
+  href: api/Services.WebDavService.html#Services_WebDavService_DownloadFileAsync_System_String_System_String_
+  commentId: M:Services.WebDavService.DownloadFileAsync(System.String,System.String)
+  name.vb: DownloadFileAsync(String, String)
+  fullName: Services.WebDavService.DownloadFileAsync(string, string)
+  fullName.vb: Services.WebDavService.DownloadFileAsync(String, String)
+  nameWithType: WebDavService.DownloadFileAsync(string, string)
+  nameWithType.vb: WebDavService.DownloadFileAsync(String, String)
+- uid: Services.WebDavService.DownloadFileAsync*
+  name: DownloadFileAsync
+  href: api/Services.WebDavService.html#Services_WebDavService_DownloadFileAsync_
+  commentId: Overload:Services.WebDavService.DownloadFileAsync
+  isSpec: "True"
+  fullName: Services.WebDavService.DownloadFileAsync
+  nameWithType: WebDavService.DownloadFileAsync
+- uid: Services.WebDavService.UploadFileAsync(System.String,System.String)
+  name: UploadFileAsync(string, string)
+  href: api/Services.WebDavService.html#Services_WebDavService_UploadFileAsync_System_String_System_String_
+  commentId: M:Services.WebDavService.UploadFileAsync(System.String,System.String)
+  name.vb: UploadFileAsync(String, String)
+  fullName: Services.WebDavService.UploadFileAsync(string, string)
+  fullName.vb: Services.WebDavService.UploadFileAsync(String, String)
+  nameWithType: WebDavService.UploadFileAsync(string, string)
+  nameWithType.vb: WebDavService.UploadFileAsync(String, String)
+- uid: Services.WebDavService.UploadFileAsync*
+  name: UploadFileAsync
+  href: api/Services.WebDavService.html#Services_WebDavService_UploadFileAsync_
+  commentId: Overload:Services.WebDavService.UploadFileAsync
+  isSpec: "True"
+  fullName: Services.WebDavService.UploadFileAsync
+  nameWithType: WebDavService.UploadFileAsync
