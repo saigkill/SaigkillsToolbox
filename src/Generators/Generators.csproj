@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net8.0;netstandard2.0;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net8.0;net9.0;netstandard2.1</TargetFrameworks>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>8.0</LangVersion>
@@ -11,7 +11,7 @@
     <Title>Little collection for standartising my projects. </Title>
     <Authors>Sascha Manns</Authors>
     <Description>Contains some checker methods.</Description>
-    <Copyright>(c) 2024 Sascha Manns</Copyright>
+    <Copyright>(c) 2025 Sascha Manns</Copyright>
     <PackageProjectUrl>https://dev.azure.com/saigkill/Saigkill.Toolbox</PackageProjectUrl>
     <RepositoryUrl>https://dev.azure.com/saigkill/Saigkill.Toolbox/_git/Saigkill.Toolbox</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -26,7 +26,9 @@
     <AnalysisLevel>latest</AnalysisLevel>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <AnalysisLevelPerformance>latest</AnalysisLevelPerformance>
-    <Version>1.0.0.0</Version>
+    <Version>2.0.0.0</Version>
+    <PackageReleaseNotes>1.0 Initial version
+2.0 Added Net 9.0 / Changed Namespace!!!</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
