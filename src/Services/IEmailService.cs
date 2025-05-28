@@ -1,19 +1,20 @@
-﻿using System.Threading.Tasks;
-using MimeKit;
+﻿using MimeKit;
 
-namespace Services
+using System.Threading.Tasks;
+
+namespace Saigkill.Toolbox.Services
 {
 
-  /// <summary>
-  /// Interface IEmailService
-  /// </summary>
-  public interface IEmailService
-  {
     /// <summary>
-    /// Sends the message asynchronous.
+    /// Interface IEmailService
     /// </summary>
-    /// <param name="message">The message.</param>
-    /// <returns>Task.</returns>
-    Task SendMessageAsync(MimeMessage message);
-  }
+    public interface IEmailService
+    {
+        /// <summary>
+        /// Sends the message asynchronous.
+        /// </summary>
+        /// <param name="message">The message.</param>
+        /// <returns>Task.</returns>
+        Task SendMessageAsync(MimeMessage message);
+    }
 }

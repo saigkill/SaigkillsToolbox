@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Patterns
+namespace Saigkill.Toolbox.Patterns
 {
     /// <summary>
     /// This Interface is used to define the pipeline.
