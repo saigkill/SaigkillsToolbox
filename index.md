@@ -2,6 +2,7 @@
 _layout: landing
 ---
 
-# This is the **HOMEPAGE** from Saigkill.Toolbox.
+# This is the **HOMEPAGE**.
 
-You can find the api docs.
+Welcome to the homepage of SaigkillsToolbox.
+You can find on the top a reference to the docs and the api stuff.

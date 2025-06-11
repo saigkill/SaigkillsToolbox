@@ -1,4 +1,23 @@
-﻿using System;
+﻿// <copyright file="EmailServiceWithAuth.cs" company="Sascha Manns">
+// Copyright (c) 2025 Sascha Manns.
+// Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+// associated documentation files (the “Software”), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to
+// the following conditions:
+// 
+// The above copyright notice and this permission notice shall be included in all copies or substantial
+// portions of the Software.
+// 
+// THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+// INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+// PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+// COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+// ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH
+// THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+// </copyright>
+
+using System;
 using System.Threading.Tasks;
 
 using Ardalis.GuardClauses;
@@ -15,19 +34,21 @@ using MimeKit;
 namespace Saigkill.Toolbox.Services
 {
   /// <summary>
-  /// Service for sending emails.
+  /// Class EmailServiceWithAuth. Implements a Email server with authentication.
+  /// Implements the <see cref="Services.IEmailService" />
   /// </summary>
-  public class EmailService : IEmailService
+  /// <seealso cref="Services.IEmailService" />
+  public class EmailServiceWithAuth : IEmailService
   {
-    private readonly ILogger<EmailService> _logger;
+    private readonly ILogger<EmailServiceWithAuth> _logger;
     private readonly IConfiguration _configuration;
 
     /// <summary>
-    /// Constructor for EmailService. This email service can be used, if the mailserver is reachable intern without password.
+    /// Constructor for EmailService
     /// </summary>
     /// <param name="logger">Class logger.</param>
     /// <param name="configuration">The Configuration object.</param>
-    public EmailService(ILogger<EmailService> logger, IConfiguration configuration)
+    public EmailServiceWithAuth(ILogger<EmailServiceWithAuth> logger, IConfiguration configuration)
     {
       _logger = logger;
       _configuration = configuration;
@@ -53,14 +74,16 @@ namespace Saigkill.Toolbox.Services
 
       try
       {
-        var smtpIp = Guard.Against.NullOrEmpty(_configuration.GetValue<string>("EmailServer:ServerIP"));
+        var user = Guard.Against.NullOrEmpty(_configuration.GetValue<string>("EmailServer:User"));
+        var password = Guard.Against.NullOrEmpty(_configuration.GetValue<string>("EmailServer:Password"));
         var port = Guard.Against.NegativeOrZero(_configuration.GetValue<int>("EmailServer:Port"));
         var useSsl = _configuration.GetValue<bool>("EmailServer:UseSSL");
-
-        if (Firewall.PingIp(smtpIp))
+        var smtpHost = Guard.Against.NullOrEmpty(_configuration.GetValue<string>("EmailServer:Host"));
+        if (Firewall.PingIp(smtpHost))
         {
           var smtpClient = new SmtpClient();
-          await smtpClient.ConnectAsync(smtpIp, port, useSsl).ConfigureAwait(false);
+          await smtpClient.ConnectAsync(smtpHost, port, useSsl).ConfigureAwait(false);
+          await smtpClient.AuthenticateAsync(user, password).ConfigureAwait(false);
           await smtpClient.SendAsync(message).ConfigureAwait(false);
           await smtpClient.DisconnectAsync(true).ConfigureAwait(false);
           _logger.LogInformation("Sent email");

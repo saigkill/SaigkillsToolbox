@@ -1,14 +1,12 @@
 {
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
   "metadata": [
     {
       "src": [
         {
-          "src": "./src",
+          "src": "../src",
           "files": [
             "**/*.csproj"
-          ],
-          "exclude": [
-            "**Tests**"
           ]
         }
       ],
@@ -29,7 +27,7 @@
     "resource": [
       {
         "files": [
-          "assets/**"
+          "images/**"
         ]
       }
     ],
@@ -39,10 +37,10 @@
       "modern"
     ],
     "globalMetadata": {
-      "_appName": "Saigkill.Toolbox",
-      "_appTitle": "Saigkill.Toolbox",
+      "_appName": "SaigkillsToolbox",
+      "_appTitle": "SaigkillsToolbox",
       "_enableSearch": true,
-      "pdf": true
+      "pdf": false
     }
   }
 }
