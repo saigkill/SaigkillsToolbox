@@ -1,42 +1,42 @@
 ﻿using Ardalis.GuardClauses;
 
-namespace Saigkill.Toolbox.Extensions
+namespace Extensions
 {
+  /// <summary>
+  /// Class StringExtensions.
+  /// </summary>
+  public static class StringExtensions
+  {
     /// <summary>
-    /// Class StringExtensions.
+    /// Returns a salutation based on a given gender.
     /// </summary>
-    public static class StringExtensions
+    /// <param name="gender">Gender</param>
+    /// <returns>Herr oder Frau</returns>
+    public static string GetSalutationText(this string gender)
     {
-        /// <summary>
-        /// Returns a salutation based on a given gender.
-        /// </summary>
-        /// <param name="gender">Gender</param>
-        /// <returns>Herr oder Frau</returns>
-        public static string GetSalutationText(this string gender)
-        {
-            Guard.Against.NullOrEmpty(gender);
-            return gender switch
-            {
-                "Male" => "Herr",
-                "Female" => "Frau",
-                _ => ""
-            };
-        }
-
-        /// <summary>
-        /// Returns a integer based on a given gender.
-        /// </summary>
-        /// <param name="gender">Gender</param>
-        /// <returns>Male = 1, Female = 2, Unknown = -1</returns>
-        public static int ReturnGenderId(this string gender)
-        {
-            Guard.Against.NullOrEmpty(gender);
-            return gender switch
-            {
-                "Male" => 1,
-                "Female" => 2,
-                _ => -1
-            };
-        }
+      Guard.Against.NullOrEmpty(gender);
+      return gender switch
+      {
+        "Male" => "Herr",
+        "Female" => "Frau",
+        _ => ""
+      };
     }
+
+    /// <summary>
+    /// Returns a integer based on a given gender.
+    /// </summary>
+    /// <param name="gender">Gender</param>
+    /// <returns>Male = 1, Female = 2, Unknown = -1</returns>
+    public static int ReturnGenderId(this string gender)
+    {
+      Guard.Against.NullOrEmpty(gender);
+      return gender switch
+      {
+        "Male" => 1,
+        "Female" => 2,
+        _ => -1
+      };
+    }
+  }
 }
