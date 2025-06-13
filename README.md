@@ -43,9 +43,7 @@ File a bug report [on Azure DevOps](https://dev.azure.com/saigkill/Saigkill.Tool
 
 ## Documentation
 
-A little documentation is [there](https://dev.azure.com/saigkill/Saigkill.Toolbox/_wiki/wikis/Saigkill.Toolbox.wiki/6/Main-Site).
-
-A api doc is [there](https://moongladestorage2024.blob.core.windows.net/$web/saigkills-toolbox/api/Checker.html).
+A documentation is [there](https://moongladesm.blob.core.windows.net/toolbox-docs/_site/index.html).
 
 ## Deployment
 
