@@ -1,6 +1,6 @@
 ﻿using Ardalis.GuardClauses;
 
-namespace Extensions
+namespace Saigkill.Toolbox.Extensions
 {
   /// <summary>
   /// Class StringExtensions.
@@ -37,6 +37,48 @@ namespace Extensions
         "Female" => 2,
         _ => -1
       };
+    }
+
+    /// <summary>
+    /// Determines whether [is null or empty] [the specified value].
+    /// </summary>
+    /// <param name="value">The value.</param>
+    /// <returns><c>true</c> if [is null or empty] [the specified value]; otherwise, <c>false</c>.</returns>
+    public static bool IsNullOrEmpty(this string value)
+    {
+      return string.IsNullOrEmpty(value);
+    }
+
+    /// <summary>
+    /// Determines whether [is not null or empty] [the specified value].
+    /// </summary>
+    /// <param name="value">The value.</param>
+    /// <returns><c>true</c> if [is not null or empty] [the specified value]; otherwise, <c>false</c>.</returns>
+    public static bool IsNotNullOrEmpty(this string value)
+    {
+      return !string.IsNullOrEmpty(value);
+    }
+
+    /// <summary>
+    /// Converts to safestring.
+    /// </summary>
+    /// <param name="value">The value.</param>
+    /// <returns>System.String.</returns>
+    public static string ToSafeString(this object value)
+    {
+      return value?.ToString() ?? string.Empty;
+    }
+
+    /// <summary>
+    /// Truncates the specified maximum length.
+    /// </summary>
+    /// <param name="value">The value.</param>
+    /// <param name="maxLength">The maximum length.</param>
+    /// <returns>System.String.</returns>
+    public static string Truncate(this string value, int maxLength)
+    {
+      if (string.IsNullOrEmpty(value)) return string.Empty;
+      return value.Length <= maxLength ? value : value.Substring(0, maxLength);
     }
   }
 }
