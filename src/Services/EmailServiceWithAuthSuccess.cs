@@ -36,7 +36,7 @@ namespace Saigkill.Toolbox.Services
   /// <summary>
   /// Class EmailServiceWithAuthSuccess.
   /// </summary>
-  public class EmailServiceWithAuthSuccess
+  public class EmailServiceWithAuthSuccess : IEmailBoolService
   {
     private readonly ILogger<EmailServiceWithAuthSuccess> _logger;
     private readonly IConfiguration _configuration;
