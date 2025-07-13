@@ -13,7 +13,7 @@ namespace Saigkill.Toolbox.Checker.Tests
     public void CheckIpAndPortTest()
     {
       // Arrange
-      string ip = "46.30.63.183"; // infas.de
+      string ip = "13.107.246.45"; // microsoft.com
       int port = 80;
 
       // Act

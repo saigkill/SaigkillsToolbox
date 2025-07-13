@@ -4,7 +4,7 @@
     {
       "src": [
         {
-          "src": "../src",
+          "src": "src",
           "files": [
             "**/*.csproj"
           ]
@@ -27,18 +27,18 @@
     "resource": [
       {
         "files": [
-          "images/**"
+          "Assets/**"
         ]
       }
     ],
-    "output": "_site",
+    "output": "_Saigkill.Toolbox",
     "template": [
       "default",
       "modern"
     ],
     "globalMetadata": {
-      "_appName": "SaigkillsToolbox",
-      "_appTitle": "SaigkillsToolbox",
+      "_appName": "Saigkill.Toolbox",
+      "_appTitle": "Saigkill.Toolbox",
       "_enableSearch": true,
       "pdf": false
     }

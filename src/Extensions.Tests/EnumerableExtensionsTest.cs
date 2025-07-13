@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 using JetBrains.Annotations;
 
@@ -11,22 +12,137 @@ namespace Saigkill.Toolbox.Extensions.Tests
   public class EnumerableExtensionsTest
   {
     [TestMethod]
-    [DataRow(null, true)]
-    [DataRow(new string[] { "a", "b", "c" }, false)]
-    public void IsEmptyTest(IEnumerable<object>? source, bool expected)
+    public void IsEmpty_ShouldReturnTrue_WhenCollectionIsNull()
     {
-      bool result = EnumerableExtensions.IsEmpty(source);
-      Assert.AreEqual(expected, result);
+      // Arrange
+      IEnumerable<int>? collection = null;
+      // Act
+      var result = collection.IsEmpty();
+      // Assert
+      Assert.IsTrue(result);
     }
 
     [TestMethod]
-    [DataRow(null, false)]
-    [DataRow(new string[] { "a", "b", "c" }, true)]
-    [DataRow(new string[] { }, false)]
-    public void IsNotEmptyTest(IEnumerable<object>? source, bool expected)
+    public void IsEmpty_ShouldReturnFalse_WhenCollectionIsNotEmpty()
     {
-      bool result = EnumerableExtensions.IsNotEmpty(source);
-      Assert.AreEqual(expected, result);
+      // Arrange
+      var collection = new List<int> { 1, 2, 3 };
+      // Act
+      var result = collection.IsEmpty();
+      // Assert
+      Assert.IsFalse(result);
+    }
+
+    [TestMethod]
+    public void IsNotEmpty_ShouldReturnTrue_WhenCollectionHasItems()
+    {
+      // Arrange
+      var collection = new List<int> { 1, 2, 3 };
+      // Act
+      var result = collection.IsNotEmpty();
+      // Assert
+      Assert.IsTrue(result);
+    }
+
+    [TestMethod]
+    public void IsNotEmpty_ShouldReturnFalse_WhenCollectionIsNull()
+    {
+      // Arrange
+      IEnumerable<int>? collection = null;
+      // Act
+      var result = collection.IsNotEmpty();
+      // Assert
+      Assert.IsFalse(result);
+    }
+
+    [TestMethod]
+    public void IsNullOrEmpty_ShouldReturnTrue_WhenCollectionIsNull()
+    {
+      // Arrange
+      IEnumerable<int>? collection = null;
+      // Act
+      var result = collection.IsNullOrEmpty();
+      // Assert
+      Assert.IsTrue(result);
+    }
+
+    [TestMethod]
+    public void IsNullOrEmpty_ShouldReturnTrue_WhenCollectionIsEmpty()
+    {
+      // Arrange
+      var collection = Enumerable.Empty<int>();
+      // Act
+      var result = collection.IsNullOrEmpty();
+      // Assert
+      Assert.IsTrue(result);
+    }
+
+    [TestMethod]
+    public void HasItems_ShouldReturnTrue_WhenCollectionHasItems()
+    {
+      // Arrange
+      var collection = new List<int> { 1, 2, 3 };
+      // Act
+      var result = collection.HasItems();
+      // Assert
+      Assert.IsTrue(result);
+    }
+
+    [TestMethod]
+    public void HasItems_ShouldReturnFalse_WhenCollectionIsNull()
+    {
+      // Arrange
+      IEnumerable<int>? collection = null;
+      // Act
+      var result = collection.HasItems();
+      // Assert
+      Assert.IsFalse(result);
+    }
+
+    [TestMethod]
+    public void ForEach_ShouldExecuteActionForEachItem()
+    {
+      // Arrange
+      var collection = new List<int> { 1, 2, 3 };
+      var result = new List<int>();
+      // Act
+      collection.ForEach(item => result.Add(item * 2));
+      // Assert
+      CollectionAssert.AreEqual(new List<int> { 2, 4, 6 }, result);
+    }
+
+    [TestMethod]
+    public void WhereNotNull_ShouldFilterOutNullValues()
+    {
+      // Arrange
+      var collection = new List<string?> { "a", null, "b", null, "c" };
+      // Act
+      var result = collection.WhereNotNull();
+      // Assert
+      CollectionAssert.AreEqual(new List<string> { "a", "b", "c" }, result.ToList());
+    }
+
+    [TestMethod]
+    public void ToSafeList_ShouldReturnEmptyList_WhenCollectionIsNull()
+    {
+      // Arrange
+      IEnumerable<int>? collection = null;
+      // Act
+      var result = collection.ToSafeList();
+      // Assert
+      Assert.IsNotNull(result);
+      Assert.AreEqual(0, result.Count);
+    }
+
+    [TestMethod]
+    public void ToSafeList_ShouldReturnListWithSameItems()
+    {
+      // Arrange
+      var collection = new List<int> { 1, 2, 3 };
+      // Act
+      var result = collection.ToSafeList();
+      // Assert
+      CollectionAssert.AreEqual(collection, result);
     }
   }
 }
