@@ -7,7 +7,7 @@ That method checks, if a given IP and a given port is accesable.
 bool isAvailable = Firewall.CheckIpAndPort("127.0.0.1", 80);
 ```
 
-The result value is a boolean, what represents if its available or not.
+The result value is a Ardalis.Result, what represents if its available or not.
 
 ## PingIp
 
@@ -19,4 +19,4 @@ Checks if a given IP is pingable.
 bool isAvailable = Firewall.PingIp("127.0.0.1");
 ```
 
-The result value is a boolean, what represents if its available or not.
+The result value is a Ardalis.Result, what represents if its available or not.

@@ -3,6 +3,7 @@ using System.Net.NetworkInformation;
 using System.Net.Sockets;
 
 using Ardalis.GuardClauses;
+using Ardalis.Result;
 
 namespace Saigkill.Toolbox.Checker
 {
@@ -18,7 +19,7 @@ namespace Saigkill.Toolbox.Checker
     /// <param name="ip">IP to check</param>
     /// <param name="portNumber">Port to check.</param>
     /// <returns>State if True or False.</returns>
-    public static bool CheckIpAndPort(string ip, int portNumber)
+    public static Result CheckIpAndPort(string ip, int portNumber)
     {
       Guard.Against.NullOrEmpty(ip);
       Guard.Against.Null(ip);
@@ -29,11 +30,11 @@ namespace Saigkill.Toolbox.Checker
       {
         tcpClient.Connect(ip, portNumber);
         tcpClient.Dispose();
-        return true;
+        return Result.Success();
       }
       catch (Exception)
       {
-        return false;
+        return Result.Error();
       }
     }
 
@@ -42,7 +43,7 @@ namespace Saigkill.Toolbox.Checker
     /// </summary>
     /// <param name="ip">IP to ping.</param>
     /// <returns>True or false.</returns>
-    public static bool PingIp(string ip)
+    public static Result PingIp(string ip)
     {
       Guard.Against.NullOrEmpty(ip);
       try
@@ -51,14 +52,14 @@ namespace Saigkill.Toolbox.Checker
         var pingReply = ping.Send(ip);
         if (pingReply.Status == IPStatus.Success)
         {
-          return true;
+          return Result.Success();
         }
 
-        return false;
+        return Result.Error();
       }
       catch
       {
-        return false;
+        return Result.Error();
       }
     }
   }

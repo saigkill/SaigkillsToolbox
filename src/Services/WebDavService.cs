@@ -3,6 +3,7 @@ using System.IO;
 using System.Threading.Tasks;
 
 using Ardalis.GuardClauses;
+using Ardalis.Result;
 
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
@@ -57,7 +58,7 @@ namespace Saigkill.Toolbox.Services
     /// <exception cref="Exception">Condition.</exception>
     /// <exception cref="ArgumentException">Wenn <em>remoteFilepath</em> oder <em>localFilepath</em> null ist.</exception>
     // ReSharper disable once MethodTooLong
-    public async Task<bool> DownloadFileAsync(string remoteFilepath, string localFilepath)
+    public async Task<Result> DownloadFileAsync(string remoteFilepath, string localFilepath)
     {
       Guard.Against.NullOrEmpty(remoteFilepath);
       Guard.Against.NullOrEmpty(localFilepath);
@@ -69,7 +70,7 @@ namespace Saigkill.Toolbox.Services
         if (!response.IsSuccessful)
         {
           _logger.LogInformation("Gotten negative Statuscode");
-          return false;
+          return Result.Error();
         }
 
         using (var fileStream = File.OpenWrite(localFilepath))
@@ -79,7 +80,7 @@ namespace Saigkill.Toolbox.Services
 
         _logger.LogInformation("File: {Fpath} downloaded.", localFilepath);
 
-        return true;
+        return Result.Success();
       }
 #pragma warning disable S2139
       catch (Exception ex)
@@ -95,7 +96,7 @@ namespace Saigkill.Toolbox.Services
     /// </summary>
     /// <param name="remoteFilepath">Path to file.</param>
     /// <returns>True oder False.</returns>
-    public async Task<bool> DeleteFileAsync(string remoteFilepath)
+    public async Task<Result> DeleteFileAsync(string remoteFilepath)
     {
       Guard.Against.NullOrEmpty(remoteFilepath);
 
@@ -106,7 +107,7 @@ namespace Saigkill.Toolbox.Services
         if (!status.IsSuccessful)
         {
           _logger.LogInformation("Gotten negative status code.");
-          return false;
+          return Result.Error();
         }
         _logger.LogInformation("File deleted: {RPath}", remoteFilepath);
       }
@@ -118,7 +119,7 @@ namespace Saigkill.Toolbox.Services
         throw;
       }
 
-      return true;
+      return Result.Success();
     }
 
     /// <summary>
@@ -136,7 +137,7 @@ namespace Saigkill.Toolbox.Services
     /// <exception cref="NotSupportedException"><paramref name="localFilepath" /> or <paramref name="remoteFilepath"/> is in an invalid format.</exception>
     /// <exception cref="ArgumentNullException"><paramref name="localFilepath" /> or <paramref name="remoteFilepath"/> is <see langword="null" />.</exception>
     /// <exception cref="PathTooLongException">The specified path, file name, or both exceed the system-defined maximum length.</exception>
-    public async Task<bool> UploadFileAsync(string localFilepath, string remoteFilepath)
+    public async Task<Result> UploadFileAsync(string localFilepath, string remoteFilepath)
     {
       Guard.Against.NullOrEmpty(localFilepath);
       Guard.Against.NullOrEmpty(remoteFilepath);
@@ -149,11 +150,11 @@ namespace Saigkill.Toolbox.Services
         if (!response.IsSuccessful)
         {
           _logger.LogInformation("Negativen StatusCode erhalten.");
-          return false;
+          return Result.Error();
         }
 
         _logger.LogInformation("Datei hochgeladen: {RemoteFilepath}", remoteFilepath);
-        return true;
+        return Result.Error();
       }
 #pragma warning disable S2139
       catch (Exception ex)

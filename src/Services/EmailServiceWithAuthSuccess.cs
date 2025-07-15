@@ -21,8 +21,7 @@ using System;
 using System.Threading.Tasks;
 
 using Ardalis.GuardClauses;
-
-using Checker;
+using Ardalis.Result;
 
 using MailKit.Net.Smtp;
 
@@ -31,12 +30,14 @@ using Microsoft.Extensions.Logging;
 
 using MimeKit;
 
+using Saigkill.Toolbox.Checker;
+
 namespace Saigkill.Toolbox.Services
 {
   /// <summary>
   /// Class EmailServiceWithAuthSuccess.
   /// </summary>
-  public class EmailServiceWithAuthSuccess : IEmailBoolService
+  public class EmailServiceWithAuthSuccess : IEmailSuccessService
   {
     private readonly ILogger<EmailServiceWithAuthSuccess> _logger;
     private readonly IConfiguration _configuration;
@@ -57,7 +58,7 @@ namespace Saigkill.Toolbox.Services
     ///<exception cref = "ArgumentNullException" >
     ///<paramref name="message" /> ist null.</exception>
     // ReSharper disable once MethodTooLong
-    public async Task<bool> SendMessageAsync(MimeMessage message)
+    public async Task<Result> SendMessageAsync(MimeMessage message)
     {
       Guard.Against.Null(message);
 
@@ -96,11 +97,11 @@ namespace Saigkill.Toolbox.Services
 #pragma warning restore S2139
       {
         _logger.LogError(ex, "Error while sending email: {0}", ex);
-        return false;
+        return Result.Error();
       }
 
       _logger.Log(LogLevel.Debug, "Email successful sent.");
-      return true;
+      return Result.Success();
     }
   }
 }

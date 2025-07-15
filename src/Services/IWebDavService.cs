@@ -1,5 +1,7 @@
 ﻿using System.Threading.Tasks;
 
+using Ardalis.Result;
+
 using WebDav;
 
 namespace Saigkill.Toolbox.Services
@@ -21,14 +23,14 @@ namespace Saigkill.Toolbox.Services
     /// <param name="remoteFilepath">The remote filepath.</param>
     /// <param name="localFilepath">The local filepath.</param>
     /// <returns>Task&lt;System.Boolean&gt;.</returns>
-    Task<bool> DownloadFileAsync(string remoteFilepath, string localFilepath);
+    Task<Result> DownloadFileAsync(string remoteFilepath, string localFilepath);
 
     /// <summary>
     /// Deletes the file asynchronous.
     /// </summary>
     /// <param name="remoteFilepath">The remote filepath.</param>
     /// <returns>Task&lt;System.Boolean&gt;.</returns>
-    Task<bool> DeleteFileAsync(string remoteFilepath);
+    Task<Result> DeleteFileAsync(string remoteFilepath);
 
     /// <summary>
     /// Uploads the file asynchronous.
@@ -36,6 +38,6 @@ namespace Saigkill.Toolbox.Services
     /// <param name="localFilepath">The local filepath.</param>
     /// <param name="remoteFilepath">The remote filepath.</param>
     /// <returns>Task&lt;System.Boolean&gt;.</returns>
-    Task<bool> UploadFileAsync(string localFilepath, string remoteFilepath);
+    Task<Result> UploadFileAsync(string localFilepath, string remoteFilepath);
   }
 }

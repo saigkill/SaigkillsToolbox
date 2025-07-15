@@ -1,4 +1,6 @@
-﻿using JetBrains.Annotations;
+﻿using Ardalis.Result;
+
+using JetBrains.Annotations;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -17,10 +19,10 @@ namespace Saigkill.Toolbox.Checker.Tests
       int port = 80;
 
       // Act
-      bool result = Firewall.CheckIpAndPort(ip, port);
+      Result result = Firewall.CheckIpAndPort(ip, port);
 
       // Assert
-      Assert.IsTrue(result);
+      Assert.IsTrue(result.IsOk());
     }
 
     [TestMethod]
@@ -31,10 +33,10 @@ namespace Saigkill.Toolbox.Checker.Tests
       int port = 80;
 
       // Act
-      bool result = Firewall.CheckIpAndPort(ip, port);
+      Result result = Firewall.CheckIpAndPort(ip, port);
 
       // Assert
-      Assert.IsFalse(result);
+      Assert.IsFalse(result.IsSuccess);
     }
 
     [TestMethod]
@@ -45,10 +47,10 @@ namespace Saigkill.Toolbox.Checker.Tests
       int port = -1;
 
       // Act
-      bool result = Firewall.CheckIpAndPort(ip, port);
+      Result result = Firewall.CheckIpAndPort(ip, port);
 
       // Assert
-      Assert.IsFalse(result);
+      Assert.IsFalse(result.IsSuccess);
     }
 
     [TestMethod]
@@ -58,10 +60,10 @@ namespace Saigkill.Toolbox.Checker.Tests
       string ip = "127.0.0.1";
 
       // Act
-      bool result = Firewall.PingIp(ip);
+      Result result = Firewall.PingIp(ip);
 
       // Assert
-      Assert.IsTrue(result);
+      Assert.IsTrue(result.IsSuccess);
     }
 
     [TestMethod]
@@ -71,10 +73,10 @@ namespace Saigkill.Toolbox.Checker.Tests
       string ip = "300.300.300.300";
 
       // Act
-      bool result = Firewall.PingIp(ip);
+      Result result = Firewall.PingIp(ip);
 
       // Assert
-      Assert.IsFalse(result);
+      Assert.IsFalse(result.IsSuccess);
     }
   }
 }
