@@ -18,6 +18,8 @@ exclude:
 #    paths:
 #      - <path/where/not/run/inspection>
     - name: CheckNamespace
+      paths:
+        - src
 
 #Execute shell command before Qodana execution (Applied in CI/CD pipeline)
 #bootstrap: sh ./prepare-qodana.sh
