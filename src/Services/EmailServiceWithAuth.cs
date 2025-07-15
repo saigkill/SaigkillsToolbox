@@ -22,14 +22,14 @@ using System.Threading.Tasks;
 
 using Ardalis.GuardClauses;
 
-using Checker;
-
 using MailKit.Net.Smtp;
 
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
 using MimeKit;
+
+using Saigkill.Toolbox.Checker;
 
 namespace Saigkill.Toolbox.Services
 {

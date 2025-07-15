@@ -1,4 +1,4 @@
-﻿// <copyright file="IEmailBoolService.cs" company="Sascha Manns">
+﻿// <copyright file="IEmailSuccessService.cs" company="Sascha Manns">
 // Copyright (c) 2025 Sascha Manns.
 // Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
 // associated documentation files (the “Software”), to deal in the Software without restriction, including
@@ -19,20 +19,22 @@
 
 using System.Threading.Tasks;
 
+using Ardalis.Result;
+
 using MimeKit;
 
 namespace Saigkill.Toolbox.Services
 {
   /// <summary>
-  /// Interface IEmailBoolService
+  /// Interface IEmailSuccessService
   /// </summary>
-  public interface IEmailBoolService
+  public interface IEmailSuccessService
   {
     /// <summary>
     /// Sends the message asynchronous.
     /// </summary>
     /// <param name="message">The message.</param>
     /// <returns>Task.</returns>
-    Task<bool> SendMessageAsync(MimeMessage message);
+    Task<Result> SendMessageAsync(MimeMessage message);
   }
 }
