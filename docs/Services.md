@@ -1,4 +1,4 @@
-﻿# CsvService
+# CsvService
 
 The CsvService offers the possibility to pass any list model in order to generate a CSV file from it.
 
@@ -46,8 +46,7 @@ You need to configure the follwing in the sppsettings.json:
     "DefaultSenderName": "My Bot or My Name",
     "ServerIP": "Servers IP or Hostname",
     "Host": "Hostname",
-    "Port": 587,
-    "UseSSL": true
+    "Port": 587
 }
 ```
 
@@ -104,7 +103,65 @@ You need to configure the follwing in the sppsettings.json:
     "DefaultSenderName": "My Bot or My Name",
     "Host": "Hostname",
     "Port": 587,
-    "UseSSL": true
+    "User": "anything@example.de",
+    "Password": "password"
+}
+```
+
+### DependencyInjection (Program.cs)
+```csharp
+Host.CreateDefaultBuilder(args)
+    .ConfigureAppConfiguration((hostingContext, configuration) =>
+    {
+        configuration.Sources.Clear();
+        configuration.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+        IConfigurationRoot configurationRoot = configuration.Build();
+        Configuration = configurationRoot;              
+	}).ConfigureServices((services) =>
+    {
+        services.AddSingleton<IConfigurationRoot>(Configuration);
+        services.AddSingleton<IEmailService, EmailServiceWithAuth>();
+    });
+```
+
+### Usage
+
+```csharp
+private void AMethod()
+{
+var email = new MimeMessage
+		{
+			Subject = "Subject",
+			Body = new TextPart("plain") { Text = @$"Lorem ipsum dolor Saschas Bot :-)" },
+			To =
+			{
+				new MailboxAddress("recipient1", "Emailaddress"),
+				new MailboxAddress("recipient2", "Emailaddress")
+			}
+		};
+
+		await _emailService.SendMessageAsync(email);
+}
+```
+
+
+# EmailServiceWithAuth
+
+A service for sending emails. This implementation is regular scenarios with authentification. It returns Rasult.Success or Result.Error with an error message instead of throwing an exception. This can be used to handle errors more gracefully in the calling code.
+
+## Usage
+
+### Configuration
+
+You need to configure the follwing in the sppsettings.json:
+
+```json
+{
+  "EmailServer": {
+    "DefaultEmailAddress": "x@y.com",
+    "DefaultSenderName": "My Bot or My Name",
+    "Host": "Hostname",
+    "Port": 587,
     "User": "anything@example.de",
     "Password": "password"
 }
