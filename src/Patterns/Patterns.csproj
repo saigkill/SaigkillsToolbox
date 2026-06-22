@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net8.0;net9.0;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net8.0;net9.0;netstandard2.1;net10.0</TargetFrameworks>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>8.0</LangVersion>
@@ -12,8 +12,8 @@
     <Authors>Sascha Manns</Authors>
     <Description>Contains some pattern support methods.</Description>
     <Copyright>(c) 2025 Sascha Manns</Copyright>
-    <PackageProjectUrl>https://dev.azure.com/saigkill/Saigkill.Toolbox</PackageProjectUrl>
-    <RepositoryUrl>https://dev.azure.com/saigkill/Saigkill.Toolbox/_git/Saigkill.Toolbox</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/saigkill/SaigkillsToolbox</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/saigkill/SaigkillsToolbox</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>icons8-toolbox-60.png</PackageIcon>
@@ -26,9 +26,10 @@
     <AnalysisLevel>latest</AnalysisLevel>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <AnalysisLevelPerformance>latest</AnalysisLevelPerformance>
-    <Version>2.0.0.0</Version>
+    <Version>2.0.1</Version>
     <PackageReleaseNotes>1.0 Initial version
-2.0 Added Net 9.0 / Changed Namespace!!!</PackageReleaseNotes>
+2.0 Added Net 9.0 / Changed Namespace!!!
+2.0.1 Support for .NET 10</PackageReleaseNotes>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
